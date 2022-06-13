@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 </head>
 <body>
-
+<!-- 
 <div id="container">
 	<h1>Welcome to CodeIgniter!</h1>
 
@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
-</div>
-
+</div> -->
+<link href="../../home.php">
 </body>
 </html>
