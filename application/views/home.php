@@ -91,6 +91,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Login</a>
               </li>
+              <li class="nac-item">
+                <a class="nav-link" href="contact.html">Register</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -107,7 +110,6 @@
                 <div class="text-content">
                   <h6>lorem ipsum dolor sit amet!</h6>
                   <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
-                  <p>Magni deserunt dolorem consectetur adipisicing elit. Corporis molestiae optio, laudantium odio quod rerum maiores, omnis unde quae illo.</p>
                   <a href="contact.html" class="filled-button">contact us</a>
                 </div>
             </div>
@@ -119,8 +121,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At culpa cupiditate mollitia adipisci assumenda laborum eius quae quo excepturi, eveniet. Dicta nulla ea beatae consequuntur?</p>
-                  <a href="fleet.html" class="filled-button">Fleet</a>
+                  <a href="fleet.html" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
@@ -131,8 +132,7 @@
                 <div class="text-content">
                   <h6>alias officia qui quae vitae natus!</h6>
                   <h4>Lorem ipsum dolor <br> sit amet, consectetur.</h4>
-                  <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-                  <a href="offers.html" class="filled-button">Offers</a>
+                  <a href="offers.html" class="filled-button">Services</a>
                 </div>
             </div>
           </div>
@@ -164,8 +164,6 @@
             <div class="section-heading">
               <h2>Our <em>Services</em></h2>
               <span>Once a customer always a family</span>
-              <h2>Our <em>Offers</em></h2>
-              <span>Aliquam id urna imperdiet libero mollis hendrerit</span>
             </div>
           </div>
           <div class="col-md-4">

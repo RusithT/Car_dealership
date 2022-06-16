@@ -388,7 +388,7 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:95vh;
+	height: 75vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
@@ -449,7 +449,7 @@ ul.slick-dots {
 	text-align: left;
   	width: 75%;
   	position: absolute;
-  	top: 50%;
+  	top: 70%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
