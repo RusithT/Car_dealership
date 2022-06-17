@@ -90,17 +90,44 @@
         </div>
       </nav>
     </header>
-    <br/><br/><br/>
-    <div class="col-md-3">
-            <div class="service-item">
-              <img src="assets/images/cal.jpg" alt="">
-              <div class="down-content">
-                <h4>Calculate your lease here...</h4>
-                <div style="margin-bottom:10px;">
-                  <span>from <sup>RS.</sup>4500 per weekend</span>
+    <br/><br/><br/></br>
+    <div class="row">
+      <div class="col-md-3">
+              <div class="service-item">
+                <img src="assets/images/cal.jpg" alt="">
+                <div class="down-content">
+                  <h4>Calculate your lease here...</h4>
+                  <div style="margin-bottom:10px;">
+                    <span>from <sup>RS.</sup>4500 per weekend</span>
+                  </div>
+                  <p>You can calculate your lease by choosing easy way to do the payment.</p>
+                  <a href="" class="filled-button">Try now</a>
                 </div>
-                <p>You can calculate your lease by choosing easy way to do the payment.</p>
-                <a href="" class="filled-button">Try now</a>
               </div>
-            </div>
+        </div>
+      <div class="col-md-4">
+        <div class="service-item">
+          <img src="assets/images/handshake.jpg" alt="">
+          <div class="down-content">
+            <h4>Want to apply for a lease?</h4>
+            <!-- <div style="margin-bottom:20px;">
+              <span>from <sup>RS.</sup>4500 per weekend</span>
+            </div> -->
+            <p>You can apply for a lese from here...</p>
+            <a href="" class="filled-button">Apply now</a>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="service-item">
+          <img src="assets/images/handshake.jpg" alt="">
+          <div class="down-content">
+            <h4>Want to apply for a lease?</h4>
+            <!-- <div style="margin-bottom:20px;">
+              <span>from <sup>RS.</sup>4500 per weekend</span>
+            </div> -->
+            <p>You can apply for a lese from here...</p>
+            <a href="" class="filled-button">Apply now</a>
+          </div>
+        </div>    
 </body>
