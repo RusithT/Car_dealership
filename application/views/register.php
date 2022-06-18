@@ -1164,7 +1164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <label>Gender</label>
                                         <div class="col-md-4">
                                             Male<input type="radio" name="gender" value="male">
-                                            Female <input type="radio" name="gender" value="female">
+                                            Female1 <input type="radio" name="gender" value="female">
                                         </div>
                                     </div>
                                     
