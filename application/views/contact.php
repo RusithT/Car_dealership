@@ -40,8 +40,8 @@
       <div class="row">
         <div class="col-md-8 col-xs-12">
           <ul class="left-info">
-            <li><a href="#"><i class="fa fa-envelope"></i>contact@company.com</a></li>
-            <li><a href="#"><i class="fa fa-phone"></i>123-456-7890</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i>broooom.lk@gmail.com</a></li>
+            <!--<li><a href="#"><i class="fa fa-phone"></i>123-456-7890</a></li>-->
           </ul>
         </div>
         <div class="col-md-4">
@@ -59,7 +59,7 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <h2>BR<em>OOOO</em>M</h2>
+          <h2>BR<em>OOOO</em>M.LK</h2>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +92,7 @@
               </div>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="<?= base_url();?>contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -112,15 +112,15 @@
     </div>
   </div>
 
-  <!--  <div class="contact-information">
+    <div class="contact-information">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="contact-item">
             <i class="fa fa-phone"></i>
             <h4>Phone</h4>
-            <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-            <a href="#">+1 333 4040 5566</a>
+            <p>Give us a call anytime you need <br> our service</p>
+            <a href="#">+94 7* 123 4567</a>
           </div>
         </div>
         <div class="col-md-4">
@@ -128,15 +128,15 @@
             <i class="fa fa-envelope"></i>
             <h4>Email</h4>
             <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-            <a href="#">contact@company.com</a>
+            <a href="#">broooom.lk@gmail.com</a>
           </div>
         </div>
         <div class="col-md-4">
           <div class="contact-item">
             <i class="fa fa-map-marker"></i>
             <h4>Location</h4>
-            <p>212 Barrington Court New York str <br> USA</p>
-            <a href="#">View on Google Maps</a>
+            <p>Kirulapone, Colombo 00500 <br>Sri Lanka</p>
+            <a href="https://goo.gl/maps/drjYJTHKX2osRj3J9">View on Google Maps</a>
           </div>
         </div>
       </div>
