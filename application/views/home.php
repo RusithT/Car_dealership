@@ -88,11 +88,7 @@
                 </div>
               </li>
               <li class="nav-item">
-<<<<<<< HEAD
                 <a class="nav-link" href="<?php echo base_url() ?>index.php/contact">Contact Us</a>
-=======
-                <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
->>>>>>> 4591f188172530121a9d1300466b0705fb3689e8
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Login</a>
