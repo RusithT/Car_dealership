@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/github/Car_dealership/';
+$config['base_url'] = 'http://localhost/Car_dealership/';
 
 /*
 |--------------------------------------------------------------------------
