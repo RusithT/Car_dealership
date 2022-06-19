@@ -112,7 +112,7 @@
             <h6>lorem ipsum dolor sit amet!</h6>
             <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
             <p>Magni deserunt dolorem consectetur adipisicing elit. Corporis molestiae optio, laudantium odio quod rerum maiores, omnis unde quae illo.</p>
-            <a href="contact.html" class="filled-button">contact us</a>
+            <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
           </div>
         </div>
       </div>
