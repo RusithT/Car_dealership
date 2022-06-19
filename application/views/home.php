@@ -68,7 +68,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="fleet.html">Vehicle</a>
+                <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
