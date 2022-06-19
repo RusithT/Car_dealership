@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost/Rusith/Car_dealership/';
+=======
+$config['base_url'] = 'http://localhost/Car_dealership/';
+>>>>>>> 4591f188172530121a9d1300466b0705fb3689e8
 
 /*
 |--------------------------------------------------------------------------
