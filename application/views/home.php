@@ -68,7 +68,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="fleet.html">Vehicle</a>
+                <a class="nav-link" href="<?= base_url(); ?>vehicle">Vehicle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
@@ -122,7 +122,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <a href="fleet.html" class="filled-button">Vehicle</a>
+                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
