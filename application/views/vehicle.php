@@ -9,15 +9,15 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>PHPJabbers.com | Free Car Rental Website Template</title>
+    <title>BROOOOM.LK</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
   </head>
 
   <body>
@@ -111,7 +111,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-1-720x480.jpg" alt="">
+              <img src="../assets/images/product-1-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -132,7 +132,7 @@
 
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-2-720x480.jpg" alt="">
+              <img src="../assets/images/product-2-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -153,7 +153,7 @@
 
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-3-720x480.jpg" alt="">
+              <img src="../assets/images/product-3-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -174,7 +174,7 @@
 
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-4-720x480.jpg" alt="">
+              <img src="../assets/images/product-4-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -195,7 +195,7 @@
 
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-5-720x480.jpg" alt="">
+              <img src="../assets/images/product-5-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -216,7 +216,7 @@
 
           <div class="col-md-4">
             <div class="service-item">
-              <img src="assets/images/product-6-720x480.jpg" alt="">
+              <img src="../assets/images/product-6-720x480.jpg" alt="">
               <div class="down-content">
                 <h4>Lorem ipsum dolor sit amet</h4>
                 <div style="margin-bottom:10px;">
@@ -427,14 +427,14 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/accordions.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/js/owl.js"></script>
+    <script src="../assets/js/slick.js"></script>
+    <script src="../assets/js/accordions.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

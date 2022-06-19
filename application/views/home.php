@@ -62,12 +62,12 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
+                <a class="nav-link" href="<?php echo base_url() ?>index.php">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="fleet.html">Vehicle</a>
+                <a class="nav-link" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
@@ -78,6 +78,7 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="blog.html">Auction</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -86,7 +87,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="<?php echo base_url() ?>index.php/contact">Contact Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">Login</a>
