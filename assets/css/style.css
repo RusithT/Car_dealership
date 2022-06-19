@@ -388,19 +388,19 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height:95vh;
+	height: 75vh;
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slider-image-1-1920x900.jpg);
+	background-image: url(../images/speed.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slider-image-2-1920x900.jpg);
+	background-image: url(../images/car1.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slider-image-3-1920x900.jpg);
+	background-image: url(../images/car2.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -449,7 +449,7 @@ ul.slick-dots {
 	text-align: left;
   	width: 75%;
   	position: absolute;
-  	top: 50%;
+  	top: 70%;
   	left: 50%;
   	transform: translate(-50%, -50%);
 }
