@@ -94,7 +94,7 @@
                     <div class="col-md-12">
                         <p>
                             Copyright © 2020 Company Name
-                            - Template by: <a href="https://www.Broooomlk.com/">BROOM.LK</a>
+                            - Template by: <a href="https://www.Broooomlk.com/">BROOOOM.LK</a>
                         </p>
                     </div>
                 </div>
