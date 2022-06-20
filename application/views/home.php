@@ -63,12 +63,12 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url() ?>index.php">Home
+                <a class="nav-link" href="index.html">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
+                <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
@@ -88,7 +88,7 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url() ?>index.php/contact">Contact Us</a>
+                <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Login</a>
@@ -112,7 +112,7 @@
                 <div class="text-content">
                   <h6>lorem ipsum dolor sit amet!</h6>
                   <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
-                  <a href="contact.html" class="filled-button">contact us</a>
+                  <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
                 </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <a href="fleet.html" class="filled-button">Vehicle</a>
+                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
@@ -151,7 +151,7 @@
             <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
           </div>
           <div class="col-md-4">
-            <a href="contact.html" class="border-button">Contact Us</a>
+            <a href="<?= base_url(); ?>contact" class="border-button">Contact Us</a>
           </div>
         </div>
       </div>
