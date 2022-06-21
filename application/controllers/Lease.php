@@ -1,8 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class dashboard extends CI_Controller {
+class Lease extends CI_Controller {
 	public function index(){
-		$this->load->view('home');
+		$this->load->view('lease');
+		$this->load->view('footer');
 	}
 }

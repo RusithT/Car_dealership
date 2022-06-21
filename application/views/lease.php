@@ -12,13 +12,13 @@
     <title>BROOOOM.LK</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-</head>
+    <link rel="stylesheet" href="../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/owl.css">
+  </head>
 
 <body>
     <div class="sub-header">
@@ -94,7 +94,7 @@
     <div class="row">
       <div class="col-md-3">
               <div class="service-item">
-                <img src="assets/images/cal.jpg" alt="">
+                <img src="../assets/images/cal.jpg" alt="">
                 <div class="down-content">
                   <h4>Calculate your lease here...</h4>
                   <div style="margin-bottom:10px;">
@@ -107,7 +107,20 @@
         </div>
       <div class="col-md-4">
         <div class="service-item">
-          <img src="assets/images/handshake.jpg" alt="">
+          <img src="../assets/images/handshake.jpg" alt="">
+          <div class="down-content">
+            <h4>Want to apply for a lease?</h4>
+            <!-- <div style="margin-bottom:20px;">
+              <span>from <sup>RS.</sup>4500 per weekend</span>
+            </div> -->
+            <p>You can apply for a lese from here...</p>
+            <a href="<?php echo base_url() ?>index.php/apply_lease" class="filled-button">Apply now</a>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="service-item">
+          <img src="../assets/images/handshake.jpg" alt="">
           <div class="down-content">
             <h4>Want to apply for a lease?</h4>
             <!-- <div style="margin-bottom:20px;">
@@ -117,17 +130,6 @@
             <a href="" class="filled-button">Apply now</a>
           </div>
         </div>
-    </div>
-    <div class="col-md-4">
-        <div class="service-item">
-          <img src="assets/images/handshake.jpg" alt="">
-          <div class="down-content">
-            <h4>Want to apply for a lease?</h4>
-            <!-- <div style="margin-bottom:20px;">
-              <span>from <sup>RS.</sup>4500 per weekend</span>
-            </div> -->
-            <p>You can apply for a lese from here...</p>
-            <a href="" class="filled-button">Apply now</a>
-          </div>
-        </div>    
+      </div>
+    </div>   
 </body>
