@@ -114,7 +114,7 @@
               <span>from <sup>RS.</sup>4500 per weekend</span>
             </div> -->
             <p>You can apply for a lese from here...</p>
-            <a href="<?php echo base_url() ?>index.php/apply_lease" class="filled-button">Apply now</a>
+            <a href="<?php echo base_url() ?>index.php/terms" class="filled-button">Apply now</a>
           </div>
         </div>
     </div>
