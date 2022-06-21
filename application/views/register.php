@@ -13,29 +13,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../assets1/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?=base_url();?>assets1/images/favicon.ico">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/vendor/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/vendor/font-awesome.css">
     <!-- Fontawesome Star -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/fontawesome-stars.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/vendor/fontawesome-stars.css">
     <!-- Ion Icon -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/ion-fonts.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/vendor/ion-fonts.css">
     <!-- Slick CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/slick.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/plugins/slick.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/animate.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/plugins/animate.css">
     <!-- jQuery Ui -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/plugins/jquery-ui.min.css">
     <!-- Lightgallery -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/lightgallery.min.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/plugins/lightgallery.min.css">
     <!-- Nice Select -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/plugins/nice-select.css">
 
     <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
     <!--
@@ -44,12 +44,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     -->
 
     <!-- Main Style CSS (Please use minify version for better website load performance) -->
-    <link rel="stylesheet" href="../assets/assets1/css/style.css">
+    <link rel="stylesheet" href="<?=base_url();?>assets/assets1/css/style.css">
     <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
 
 </head>
 
 <body class="template-color-1">
+
+    <div class="row">
+                <div class="col-md-12">&nbsp;</div>
+    </div>
 
     <div class="main-wrapper">
 
@@ -1353,37 +1357,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ============================================ -->
 
     <!-- jQuery JS -->
-    <script src="../assets/assets1/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- Modernizer JS -->
-    <script src="../assets/assets1/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/vendor/modernizr-2.8.3.min.js"></script>
     <!-- Popper JS -->
-    <script src="../assets/assets1/js/vendor/popper.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/vendor/popper.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="../assets/assets1/js/vendor/bootstrap.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/vendor/bootstrap.min.js"></script>
 
     <!-- Slick Slider JS -->
-    <script src="../assets/assets1/js/plugins/slick.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/slick.min.js"></script>
     <!-- Barrating JS -->
-    <script src="../assets/assets1/js/plugins/jquery.barrating.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.barrating.min.js"></script>
     <!-- Counterup JS -->
-    <script src="../assets/assets1/js/plugins/jquery.counterup.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.counterup.js"></script>
     <!-- Nice Select JS -->
-    <script src="../assets/assets1/js/plugins/jquery.nice-select.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.nice-select.js"></script>
     <!-- Sticky Sidebar JS -->
-    <script src="../assets/assets1/js/plugins/jquery.sticky-sidebar.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.sticky-sidebar.js"></script>
     <!-- Jquery-ui JS -->
-    <script src="../assets/assets1/js/plugins/jquery-ui.min.js"></script>
-    <script src="../assets/assets1/js/plugins/jquery.ui.touch-punch.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery-ui.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.ui.touch-punch.min.js"></script>
     <!-- Lightgallery JS -->
-    <script src="../assets/assets1/js/plugins/lightgallery.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/lightgallery.min.js"></script>
     <!-- Scroll Top JS -->
-    <script src="../assets/assets1/js/plugins/scroll-top.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/scroll-top.js"></script>
     <!-- Theia Sticky Sidebar JS -->
-    <script src="../assets/assets1/js/plugins/theia-sticky-sidebar.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/theia-sticky-sidebar.min.js"></script>
     <!-- Waypoints JS -->
-    <script src="../assets/assets1/js/plugins/waypoints.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/waypoints.min.js"></script>
     <!-- jQuery Zoom JS -->
-    <script src="../assets/assets1/js/plugins/jquery.zoom.min.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/plugins/jquery.zoom.min.js"></script>
 
     <!-- Vendor & Plugins JS (Please remove the comment from below vendor.min.js & plugins.min.js for better website load performance and remove js files from avobe) -->
     <!--
@@ -1392,7 +1396,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -->
 
     <!-- Main JS -->
-    <script src="../assets/assets1/js/main.js"></script>
+    <script src="<?=base_url();?>assets/assets1/js/main.js"></script>
 
 </body>
 
