@@ -9,6 +9,10 @@ class Apply_lease extends CI_Controller {
         $this->load->view('footer');
 =======
 		$this->load->view('apply_lease');
+<<<<<<< HEAD
 >>>>>>> Kalindu
+=======
+>>>>>>> 6d9cf41e621a3818a539d57c61f4c4481b40b9a9
+>>>>>>> main
 	}
 }

@@ -1,6 +1,4 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?>
+<?php { ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -1392,18 +1390,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -->
 
     <!-- Main JS -->
-<<<<<<< HEAD
-    <script src=" ../assets/assets1/js/main.js"></script>
-=======
-<<<<<<< Updated upstream
+
     <script src="assets/assets1/js/main.js"></script>
-=======
-    <script src="../assets/assets1/js/main.js"></script>
->>>>>>> Stashed changes
->>>>>>> Kalindu
+   
+
 
 </body>
 
 
 </html>
-
+<?php } ?>
