@@ -1392,7 +1392,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -->
 
     <!-- Main JS -->
-    <script src="../assets/assets1/js/main.js"></script>
+    <script src=" ../assets/assets1/js/main.js"></script>
 
 </body>
 
