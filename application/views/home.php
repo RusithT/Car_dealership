@@ -124,7 +124,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
+                  <a href="fleet.html" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
