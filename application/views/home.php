@@ -67,8 +67,12 @@
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
+              <li class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
+                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
@@ -80,7 +84,6 @@
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="blog.html">Auction</a>
                     <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
-                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
