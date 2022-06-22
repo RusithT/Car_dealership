@@ -695,7 +695,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="minicart-item_total">
                         <span>Subtotal</span>
-                        <span class="ammount">$462.4‬0</span>
+                        <span class="ammount">$462.40</span>
                     </div>
                     <div class="minicart-btn_area">
                         <a href="cart.html" class="uren-btn uren-btn_dark uren-btn_fullwidth">Minicart</a>
@@ -1392,7 +1392,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -->
 
     <!-- Main JS -->
+<<<<<<< HEAD
     <script src=" ../assets/assets1/js/main.js"></script>
+=======
+<<<<<<< Updated upstream
+    <script src="assets/assets1/js/main.js"></script>
+=======
+    <script src="../assets/assets1/js/main.js"></script>
+>>>>>>> Stashed changes
+>>>>>>> Kalindu
 
 </body>
 
