@@ -95,7 +95,7 @@
                 <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Login</a>
+                <a class="nav-link" href="<?php echo base_url() ?>index.php/login">Login</a>
               </li>
               <li class="nac-item">
                 <a class="nav-link" href="<?php echo base_url() ?>index.php/register">Register</a>
@@ -127,7 +127,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
+                  <a href="fleet.html" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
