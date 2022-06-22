@@ -1392,7 +1392,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 -->
 
     <!-- Main JS -->
+<<<<<<< Updated upstream
     <script src="assets/assets1/js/main.js"></script>
+=======
+    <script src="../assets/assets1/js/main.js"></script>
+>>>>>>> Stashed changes
 
 </body>
 
