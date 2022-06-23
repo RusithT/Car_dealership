@@ -182,6 +182,13 @@
                                 <strong class="pull-right">Right Rear</strong>
                             </div>
                         </li>
+                        <li class="list-group-item">
+                            <div class="clearfix">
+                                <span class="pull-left">Drive Line Type</span>
+
+                                <strong class="pull-right">Front Wheel Drive</strong>
+                            </div>
+                        </li>
                     </ul>
             </div>
         </div>
