@@ -97,9 +97,9 @@
                 <figure>
                     <img src="<?= base_url(); ?>assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
                     <br><br>
-                    <figcaption>
-                        <h2> <strong class="text-primary">Audi Q5</strong></h2>
-                    </figcaption>
+
+
+
                 </figure>
             </div>
             <br><br>
