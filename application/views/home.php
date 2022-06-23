@@ -67,12 +67,17 @@
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
+<<<<<<< Updated upstream
               <li class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
                   <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
                 </div>
+=======
+              <li class="nav-item">
+                <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
+>>>>>>> Stashed changes
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="offers.html">Services</a>
@@ -84,6 +89,10 @@
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="blog.html">Auction</a>
                     <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
+<<<<<<< Updated upstream
+=======
+                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
+>>>>>>> Stashed changes
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -95,7 +104,11 @@
                 <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
               </li>
               <li class="nav-item">
+<<<<<<< Updated upstream
                 <a class="nav-link" href="<?php echo base_url() ?>index.php/login">Login</a>
+=======
+                <a class="nav-link" href="contact.html">Login</a>
+>>>>>>> Stashed changes
               </li>
               <li class="nac-item">
                 <a class="nav-link" href="<?php echo base_url() ?>index.php/register">Register</a>
@@ -127,7 +140,11 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
+<<<<<<< Updated upstream
                   <a href="fleet.html" class="filled-button">Vehicle</a>
+=======
+                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
+>>>>>>> Stashed changes
                 </div>
             </div>
           </div>

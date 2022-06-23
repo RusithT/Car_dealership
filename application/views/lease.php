@@ -43,7 +43,6 @@
 
     <header class="">
         <div class="main-banner header-text" id="top">
-            <div class="Modern-Slider">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.php"><h2>BR0000M.LK</h2></a>
