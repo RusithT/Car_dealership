@@ -1,6 +1,6 @@
+<?php { ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
-
 
 <head>
     <meta charset="utf-8">
@@ -10,29 +10,28 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../assets1/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>assets/images/favicon.ico">
 
-    <!-- CSS
-	============================================ -->
+    <!-- CS ============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/font-awesome.css">
     <!-- Fontawesome Star -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/fontawesome-stars.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/fontawesome-stars.css">
     <!-- Ion Icon -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/ion-fonts.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/ion-fonts.css">
     <!-- Slick CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/slick.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/slick.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/animate.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/animate.css">
     <!-- jQuery Ui -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/jquery-ui.min.css">
     <!-- Lightgallery -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/lightgallery.min.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/lightgallery.min.css">
     <!-- Nice Select -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/nice-select.css">
 
     <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
     <!--
@@ -41,12 +40,14 @@
     -->
 
     <!-- Main Style CSS (Please use minify version for better website load performance) -->
-    <link rel="stylesheet" href="../assets/assets1/css/style.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/register_css.css">
     <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
 
 </head>
+
 <body>
-    <br/></br><br/><br/>
+    <br /></br><br /><br />
+    <div class="header-text">
     <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
         <form action="#">
             <div class="login-form">
@@ -60,7 +61,7 @@
                         <label>Company Registration Number</label>
                         <input type="text" placeholder="Company Registrastion Number">
                     </div>
-                                        
+
                     <div class="col-md-6 col-12 mb--20">
                         <label>Company Email Address*</label>
                         <input type="email" placeholder="Email Address">
@@ -76,8 +77,8 @@
                             Female<input type="radio" name="gender" value="female">
                         </div>
                     </div>
-                    
-                    <!-- Director 1 -->        
+                    </div>
+                    <!-- Director 1 -->
                     <div class="col-md-12">
                         <label>Full Name(Director 1)</label>
                         <input type="text" placeholder="Full Name">
@@ -169,8 +170,7 @@
     </div>
     </div>
     </div>
-
 </body>
-</html>
 
-    
+</html>
+<?php } ?>

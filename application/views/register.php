@@ -1,52 +1,62 @@
 <?php { ?>
-<!doctype html>
-<html class="no-js" lang="zxx">
+    <!doctype html>
+    <html class="no-js" lang="zxx">
 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Registeration</title>
+        <meta name="robots" content="noindex, follow" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>images/favicon.ico">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Registeration</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="../assets1/images/favicon.ico">
+        <!-- CSS ============================================ -->
 
-    <!-- CSS
-	============================================ -->
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/bootstrap.min.css">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/font-awesome.css">
+        <!-- Fontawesome Star -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/fontawesome-stars.css">
+        <!-- Ion Icon -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/vendor/ion-fonts.css">
+        <!-- Slick CSS -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/slick.css">
+        <!-- Animation -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/animate.css">
+        <!-- jQuery Ui -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/jquery-ui.min.css">
+        <!-- Lightgallery -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/lightgallery.min.css">
+        <!-- Nice Select -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/nice-select.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/bootstrap.min.css">
-    <!-- Fontawesome -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/font-awesome.css">
-    <!-- Fontawesome Star -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/fontawesome-stars.css">
-    <!-- Ion Icon -->
-    <link rel="stylesheet" href="../assets/assets1/css/vendor/ion-fonts.css">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/slick.css">
-    <!-- Animation -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/animate.css">
-    <!-- jQuery Ui -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/jquery-ui.min.css">
-    <!-- Lightgallery -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/lightgallery.min.css">
-    <!-- Nice Select -->
-    <link rel="stylesheet" href="../assets/assets1/css/plugins/nice-select.css">
-
-    <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
-    <!--
+        <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
+        <!--
     <script src="assets/js/vendor/vendor.min.js"></script>
     <script src="assets/js/plugins/plugins.min.js"></script>
     -->
 
-    <!-- Main Style CSS (Please use minify version for better website load performance) -->
-    <link rel="stylesheet" href="../assets/assets1/css/style.css">
-    <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
+        <!-- Main Style CSS (Please use minify version for better website load performance) -->
+        <link rel="stylesheet" href="<?= base_url(); ?>assets/css/register_css.css">
+        <!--<link rel="stylesheet" href="assets/css/style.min.css">-->
 
-</head>
+    </head>
 
+<<<<<<< HEAD
+    <body class="template-color-1">
+        <div class="main-wrapper">
+            <!-- Begin Uren's Breadcrumb Area -->
+            <div class="breadcrumb-area">
+                <div class="container">
+                    <div class="breadcrumb-content">
+                        <h2>Register Now!</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Registeration</li>
+=======
 <body class="template-color-1">
     <div class="main-wrapper">
 
@@ -688,714 +698,119 @@
                                     <span class="product-item_quantity">1 x $165.80</span>
                                 </div>
                             </li>
+>>>>>>> Kalindu
                         </ul>
                     </div>
-                    <div class="minicart-item_total">
-                        <span>Subtotal</span>
-                        <span class="ammount">$462.40</span>
-                    </div>
-                    <div class="minicart-btn_area">
-                        <a href="cart.html" class="uren-btn uren-btn_dark uren-btn_fullwidth">Minicart</a>
-                    </div>
-                    <div class="minicart-btn_area">
-                        <a href="checkout.html" class="uren-btn uren-btn_dark uren-btn_fullwidth">Checkout</a>
-                    </div>
                 </div>
             </div>
-            <div class="mobile-menu_wrapper" id="mobileMenu">
-                <div class="offcanvas-menu-inner">
-                    <div class="container">
-                        <a href="#" class="btn-close"><i class="ion-android-close"></i></a>
-                        <div class="offcanvas-inner_search">
-                            <form action="#" class="inner-searchbox">
-                                <input type="text" placeholder="Search for item...">
-                                <button class="search_btn" type="submit"><i class="ion-ios-search-strong"></i></button>
-                            </form>
-                        </div>
-                        <nav class="offcanvas-navigation">
-                            <ul class="mobile-menu">
-                                <li class="menu-item-has-children active"><a href="index.html"><span
-                                        class="mm-text">Home</span></a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="index.html">
-                                                <span class="mm-text">Home One</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index-2.html">
-                                                <span class="mm-text">Home Two</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="index-3.html">
-                                                <span class="mm-text">Home Three</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="shop-left-sidebar.html">
-                                        <span class="mm-text">Shop</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="shop-left-sidebar.html">
-                                                <span class="mm-text">Grid View</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="shop-grid-fullwidth.html">
-                                                        <span class="mm-text">Column Three</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-4-column.html">
-                                                        <span class="mm-text">Column Four</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-left-sidebar.html">
-                                                        <span class="mm-text">Left Sidebar</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-right-sidebar.html">
-                                                        <span class="mm-text">Right Sidebar</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="shop-list-left-sidebar.html">
-                                                <span class="mm-text">Shop List</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="shop-list-fullwidth.html">
-                                                        <span class="mm-text">Full Width</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-list-left-sidebar.html">
-                                                        <span class="mm-text">Left Sidebar</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-list-right-sidebar.html">
-                                                        <span class="mm-text">Right Sidebar</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="single-product-gallery-left.html">
-                                                <span class="mm-text">Single Product Style</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="single-product-gallery-left.html">
-                                                        <span class="mm-text">Gallery Left</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-gallery-right.html">
-                                                        <span class="mm-text">Gallery Right</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-tab-style-left.html">
-                                                        <span class="mm-text">Tab Style Left</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-tab-style-right.html">
-                                                        <span class="mm-text">Tab Style Right</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-sticky-left.html">
-                                                        <span class="mm-text">Sticky Left</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-sticky-right.html">
-                                                        <span class="mm-text">Sticky Right</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="single-product.html">
-                                                <span class="mm-text">Single Product Type</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="single-product.html">
-                                                        <span class="mm-text">Single Product</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-sale.html">
-                                                        <span class="mm-text">Single Product Sale</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-group.html">
-                                                        <span class="mm-text">Single Product Group</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-variable.html">
-                                                        <span class="mm-text">Single Product Variable</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-affiliate.html">
-                                                        <span class="mm-text">Single Product Affiliate</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-slider.html">
-                                                        <span class="mm-text">Single Product Slider</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">
-                                        <span class="mm-text">Blog</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item-has-children has-children">
-                                            <a href="blog-left-sidebar.html">
-                                                <span class="mm-text">Grid View</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-2-column.html">
-                                                        <span class="mm-text">Column Two</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-3-column.html">
-                                                        <span class="mm-text">Column Three</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-left-sidebar.html">
-                                                        <span class="mm-text">Left Sidebar</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-right-sidebar.html">
-                                                        <span class="mm-text">Right Sidebar</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children has-children">
-                                            <a href="blog-list-left-sidebar.html">
-                                                <span class="mm-text">List View</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-list-fullwidth.html">
-                                                        <span class="mm-text">List Fullwidth</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-list-left-sidebar.html">
-                                                        <span class="mm-text">List Left Sidebar</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-list-right-sidebar.html">
-                                                        <span class="mm-text">List Right Sidebar</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children has-children">
-                                            <a href="blog-details-left-sidebar.html">
-                                                <span class="mm-text">Blog Details</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-details-left-sidebar.html">
-                                                        <span class="mm-text">Left Sidebar</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details-right-sidebar.html">
-                                                        <span class="mm-text">Right Sidebar</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children has-children">
-                                            <a href="blog-gallery-format.html">
-                                                <span class="mm-text">Blog Format</span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog-gallery-format.html">
-                                                        <span class="mm-text">Gallery Format</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-audio-format.html">
-                                                        <span class="mm-text">Audio Format</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-video-format.html">
-                                                        <span class="mm-text">Video Format</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="index.html">
-                                        <span class="mm-text">Pages</span>
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="my-account.html">
-                                                <span class="mm-text">My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="login-register.html">
-                                                <span class="mm-text">Login | Register</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="wishlist.html">
-                                                <span class="mm-text">Wishlist</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="cart.html">
-                                                <span class="mm-text">Cart</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="checkout.html">
-                                                <span class="mm-text">Checkout</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="compare.html">
-                                                <span class="mm-text">Compare</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="faq.html">
-                                                <span class="mm-text">FAQ</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="404.html">
-                                                <span class="mm-text">Error 404</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                        <nav class="offcanvas-navigation user-setting_area">
-                            <ul class="mobile-menu">
-                                <li class="menu-item-has-children active"><a href="javascript:void(0)"><span
-                                        class="mm-text">User
-                                        Setting</span></a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="my-account.html">
-                                                <span class="mm-text">My Account</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="login-register.html">
-                                                <span class="mm-text">Login | Register</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="javascript:void(0)"><span
-                                        class="mm-text">Currency</span></a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">EUR €</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">USD $</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="javascript:void(0)"><span
-                                        class="mm-text">Language</span></a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">English</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">Français</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">Romanian</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="javascript:void(0)">
-                                                <span class="mm-text">Japanese</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
-         Uren's Header Main Area End Here -->
-
-        <!-- Begin Uren's Breadcrumb Area -->
-        <div class="breadcrumb-area">
-            <div class="container">
-                <div class="breadcrumb-content">
-                    <h2>Register Now!</h2>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Registeration</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Uren's Breadcrumb Area End Here -->
-        <!-- Begin Uren's Login Register Area -->
-        <div class="uren-login-register_area">
-            <div class="container-fluid">
-                <div class="row">
-                    <!--div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
-                         
-                        <form action="#">
-                            <div class="login-form">
-                                <h4 class="login-title">Login</h4>
-                                <div class="row">
-                                    <div class="col-md-12 col-12">
-                                        <label>Email Address*</label>
-                                        <input type="email" placeholder="Email Address">
-                                    </div>
-                                    <div class="col-12 mb--20">
-                                        <label>Password</label>
-                                        <input type="password" placeholder="Password">
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="check-box">
-                                            <input type="checkbox" id="remember_me">
-                                            <label for="remember_me">Remember me</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="forgotton-password_info">
-                                            <a href="#"> Forgotten pasward?</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button class="uren-login_btn">Login</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div-->
-                    <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-                        <form action="#">
-                            <div class="login-form">
-                                <h4 class="login-title">Register</h4>
-                                <div class="row">
-                                    <div class="col-md-6 col-12 mb--20">
-                                        <label>First Name</label>
-                                        <input type="text" placeholder="First Name">
-                                    </div>
-                                    <div class="col-md-6 col-12 mb--20">
-                                        <label>Last Name</label>
-                                        <input type="text" placeholder="Last Name">
-                                    </div>
-                                    <div class="col-md-6 col-12 mb--20">
-                                        <label>NIC</label>
-                                        <input type="text" placeholder="National Identity Card">
-                                    </div>
-                                    <div class="col-md-6 col-12 mb--20">
-                                        <label>UserName</label>
-                                        <input type="text" placeholder="Example :- johnf">
-                                    </div>
-                                    <div class="col-md-6 col-12 mb--20">
-                                        <label>Birth Date</label>
-                                        <input type="date">
-                                    </div>
-                                    
-                                    <div class="col-md-12">
-                                        <label>Email Address*</label>
-                                        <input type="email" placeholder="Email Address">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>Address</label>
-                                        <input type="address" placeholder="Address">
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>Gender</label>
-                                        <div class="col-md-4">
-                                            Male<input type="radio" name="gender" value="male">
-                                            Female1 <input type="radio" name="gender" value="female">
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col-md-6">  
-                                        <label>Password</label>
-                                        <input type="password" placeholder="Password">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Confirm Password</label>
-                                        <input type="password" placeholder="Confirm Password">
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="uren-register_btn">Register</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Uren's Login Register Area  End Here -->
-        <!-- Begin Uren's Footer Area -->
-        <!--div class="uren-footer_area">
-            <div class="footer-top_area">
+            <!-- Uren's Breadcrumb Area End Here -->
+            <!-- Begin Uren's Login Register Area -->
+            <div class="uren-login-register_area">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="newsletter-area">
-                                <h3 class="title">Join Our Newsletter Now</h3>
-                                <p class="short-desc">Get E-mail updates about our latest shop and special offers.</p>
-                                <div class="newsletter-form_wrap">
-                                    <form action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletters-form validate" target="_blank" novalidate>
-                                        <div id="mc_embed_signup_scroll">
-                                            <div id="mc-form" class="mc-form subscribe-form">
-                                                <input id="mc-email" class="newsletter-input" type="email" autocomplete="off" placeholder="Enter your email" />
-                                                <button class="newsletter-btn" id="mc-submit">Subscribe</button>
+
+                        <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
+                            <form action="#">
+                                <div class="login-form">
+                                    <h4 class="login-title">Register</h4>
+                                    <div class="row">
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>First Name</label>
+                                            <input type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>Last Name</label>
+                                            <input type="text" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>NIC</label>
+                                            <input type="text" placeholder="National Identity Card">
+                                        </div>
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>UserName</label>
+                                            <input type="text" placeholder="Example :- johnf">
+                                        </div>
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>Birth Date</label>
+                                            <input type="date">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>Email Address*</label>
+                                            <input type="email" placeholder="Email Address">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>Address</label>
+                                            <input type="address" placeholder="Address">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label>Gender</label>
+                                            <div class="col-md-3">
+                                                Male <input type="radio" name="gender" value="male">
+                                                Female <input type="radio" name="gender" value="female">
                                             </div>
                                         </div>
-                                    </form>
+
+                                        <div class="col-md-6">
+                                            <label>Password</label>
+                                            <input type="password" placeholder="Password">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label>Confirm Password</label>
+                                            <input type="password" placeholder="Confirm Password">
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="uren-register_btn">Register</button>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-middle_area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="footer-widgets_info">
-                                <div class="footer-widgets_logo">
-                                    <a href="#">
-                                        <img src="assets/images/menu/logo/1.png" alt="Uren's Footer Logo">
-                                    </a>
-                                </div>
-                                <div class="widget-short_desc">
-                                    <p>We are a team of designers and developers that create high quality HTML Template &
-                                        Woocommerce, Shopify Theme.
-                                    </p>
-                                </div>
-                                <div class="widgets-essential_stuff">
-                                    <ul>
-                                        <li class="uren-address"><span>Address:</span> The Barn,
-                                            Ullenhall, Henley
-                                            in
-                                            Arden B578 5CC, England</li>
-                                        <li class="uren-phone"><span>Call
-                                        Us:</span> <a href="tel://+123123321345">+123 321 345</a>
-                                        </li>
-                                        <li class="uren-email"><span>Email:</span> <a href="mailto://info@yourdomain.com">info@yourdomain.com</a></li>
-                                    </ul>
-                                </div>
-                                <div class="uren-social_link">
-                                    <ul>
-                                        <li class="facebook">
-                                            <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="Facebook">
-                                                <i class="fab fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li class="twitter">
-                                            <a href="https://twitter.com/" data-toggle="tooltip" target="_blank" title="Twitter">
-                                                <i class="fab fa-twitter-square"></i>
-                                            </a>
-                                        </li>
-                                        <li class="google-plus">
-                                            <a href="https://www.plus.google.com/discover" data-toggle="tooltip" target="_blank" title="Google Plus">
-                                                <i class="fab fa-google-plus"></i>
-                                            </a>
-                                        </li>
-                                        <li class="instagram">
-                                            <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="Instagram">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="footer-widgets_area">
-                                <div class="row">
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="footer-widgets_title">
-                                            <h3>Information</h3>
-                                        </div>
-                                        <div class="footer-widgets">
-                                            <ul>
-                                                <li><a href="javascript:void(0)">About Us</a></li>
-                                                <li><a href="javascript:void(0)">Delivery Information</a></li>
-                                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                                <li><a href="javascript:void(0)">Terms & Conditions</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="footer-widgets_title">
-                                            <h3>Customer Service</h3>
-                                        </div>
-                                        <div class="footer-widgets">
-                                            <ul>
-                                                <li><a href="javascript:void(0)">Contact Us</a></li>
-                                                <li><a href="javascript:void(0)">Returns</a></li>
-                                                <li><a href="javascript:void(0)">Site Map</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="footer-widgets_title">
-                                            <h3>Extras</h3>
-                                        </div>
-                                        <div class="footer-widgets">
-                                            <ul>
-                                                <li><a href="javascript:void(0)">About Us</a></li>
-                                                <li><a href="javascript:void(0)">Delivery Information</a></li>
-                                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                                <li><a href="javascript:void(0)">Terms & Conditions</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="footer-widgets_title">
-                                            <h3>My Account</h3>
-                                        </div>
-                                        <div class="footer-widgets">
-                                            <ul>
-                                                <li><a href="javascript:void(0)">My Account</a></li>
-                                                <li><a href="javascript:void(0)">Order History</a></li>
-                                                <li><a href="javascript:void(0)">Wish List</a></li>
-                                                <li><a href="javascript:void(0)">Newsletter</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom_area">
-                <div class="container-fluid">
-                    <div class="footer-bottom_nav">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="copyright">
-                                    <span><a href="templateshub.net">Templateshub</a></span>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="payment">
-                                    <a href="#">
-                                        <img src="assets/images/footer/payment/1.png" alt="Uren's Payment Method">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div-->
-        <!-- Uren's Footer Area End Here -->
+        </div>
 
-    </div>
+        <!-- JS ============================================ -->
 
-    <!-- JS
-============================================ -->
+        <!-- jQuery JS -->
+        <script src="<?= base_url(); ?>assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- Modernizer JS -->
+        <script src="<?= base_url(); ?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- Popper JS -->
+        <script src="<?= base_url(); ?>assets/js/vendor/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="<?= base_url(); ?>assets/js/vendor/bootstrap.min.js"></script>
 
-    <!-- jQuery JS -->
-    <script src="../assets/assets1/js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- Modernizer JS -->
-    <script src="../assets/assets1/js/vendor/modernizr-2.8.3.min.js"></script>
-    <!-- Popper JS -->
-    <script src="../assets/assets1/js/vendor/popper.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="../assets/assets1/js/vendor/bootstrap.min.js"></script>
+        <!-- Slick Slider JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/slick.min.js"></script>
+        <!-- Barrating JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.barrating.min.js"></script>
+        <!-- Counterup JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.counterup.js"></script>
+        <!-- Nice Select JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.nice-select.js"></script>
+        <!-- Sticky Sidebar JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.sticky-sidebar.js"></script>
+        <!-- Jquery-ui JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery-ui.min.js"></script>
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.ui.touch-punch.min.js"></script>
+        <!-- Lightgallery JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/lightgallery.min.js"></script>
+        <!-- Scroll Top JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/scroll-top.js"></script>
+        <!-- Theia Sticky Sidebar JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/theia-sticky-sidebar.min.js"></script>
+        <!-- Waypoints JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/waypoints.min.js"></script>
+        <!-- jQuery Zoom JS -->
+        <script src="<?= base_url(); ?>assets/js/plugins/jquery.zoom.min.js"></script>
 
-    <!-- Slick Slider JS -->
-    <script src="../assets/assets1/js/plugins/slick.min.js"></script>
-    <!-- Barrating JS -->
-    <script src="../assets/assets1/js/plugins/jquery.barrating.min.js"></script>
-    <!-- Counterup JS -->
-    <script src="../assets/assets1/js/plugins/jquery.counterup.js"></script>
-    <!-- Nice Select JS -->
-    <script src="../assets/assets1/js/plugins/jquery.nice-select.js"></script>
-    <!-- Sticky Sidebar JS -->
-    <script src="../assets/assets1/js/plugins/jquery.sticky-sidebar.js"></script>
-    <!-- Jquery-ui JS -->
-    <script src="../assets/assets1/js/plugins/jquery-ui.min.js"></script>
-    <script src="../assets/assets1/js/plugins/jquery.ui.touch-punch.min.js"></script>
-    <!-- Lightgallery JS -->
-    <script src="../assets/assets1/js/plugins/lightgallery.min.js"></script>
-    <!-- Scroll Top JS -->
-    <script src="../assets/assets1/js/plugins/scroll-top.js"></script>
-    <!-- Theia Sticky Sidebar JS -->
-    <script src="../assets/assets1/js/plugins/theia-sticky-sidebar.min.js"></script>
-    <!-- Waypoints JS -->
-    <script src="../assets/assets1/js/plugins/waypoints.min.js"></script>
-    <!-- jQuery Zoom JS -->
-    <script src="../assets/assets1/js/plugins/jquery.zoom.min.js"></script>
-
-    <!-- Vendor & Plugins JS (Please remove the comment from below vendor.min.js & plugins.min.js for better website load performance and remove js files from avobe) -->
-    <!--
+        <!-- Vendor & Plugins JS (Please remove the comment from below vendor.min.js & plugins.min.js for better website load performance and remove js files from avobe) -->
+        <!--
 <script src="assets/js/vendor/vendor.min.js"></script>
 <script src="assets/js/plugins/plugins.min.js"></script>
 -->
+    </body>
 
-    <!-- Main JS -->
-
-    <script src="assets/assets1/js/main.js"></script>
-   
-
-
-</body>
-
-
-</html>
+    </html>
 <?php } ?>
