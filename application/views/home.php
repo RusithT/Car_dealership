@@ -298,7 +298,7 @@
 >>>>>>> Stashed changes
               </li>
               <li class="nac-item">
-                <a class="nav-link" href="<?php echo base_url() ?>index.php/register">Register</a>
+                <a class="nav-link" href="<?php echo base_url() ?>register">Register</a>
               </li>
             </ul>
           </div>
