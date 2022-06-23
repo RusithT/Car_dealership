@@ -48,14 +48,6 @@
 </head>
 
 <body class="template-color-1">
-
-    <div class="row">
-                <div class="col-md-12">&nbsp;</div>
-    </div>
-    <div class="row">
-                <div class="col-md-12">&nbsp;</div>
-    </div>
-
     <div class="main-wrapper">
 
         <!-- Begin Uren's Header Main Area -->
