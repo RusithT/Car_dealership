@@ -64,15 +64,15 @@
               <ul class="navbar-nav ml-auto">
                 
                 <li class="nav-item active">
-                  <a class="nav-link" href="<?php echo base_url() ?>">Home
+                  <a class="nav-link" href="<?= base_url(); ?>">Home
                     <span class="sr-only">(current)</span>
                   </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?php echo base_url() ?>vehicle">Vehicle</a>
-                    <a class="dropdown-item" href="<?php echo base_url() ?>compare">Vehicle Compare</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>vehicle">Vehicle</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>compare">Vehicle Compare</a>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -83,7 +83,7 @@
 
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="<?= base_url(); ?>auction">Auction</a>
-                    <a class="dropdown-item" href="<?php echo base_url() ?>lease">Lease</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>lease">Lease</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -92,16 +92,16 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url() ?>contact">Contact Us</a>
+                  <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url() ?>aboutus">About Us</a>
+                  <a class="nav-link" href="<?= base_url(); ?>aboutus">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url() ?>login">Login</a>
+                  <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
                 </li>
                 <li class="nac-item">
-                  <a class="nav-link" href="<?php echo base_url() ?>register">Register</a>
+                  <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
                 </li>
               </ul>
             </div>
@@ -478,14 +478,14 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Additional Scripts -->
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/js/owl.js"></script>
-  <script src="assets/js/slick.js"></script>
-  <script src="assets/js/accordions.js"></script>
+  <script src="<?= base_url(); ?>assets/js/custom.js"></script>
+  <script src="<?= base_url(); ?>assets/js/owl.js"></script>
+  <script src="<?= base_url(); ?>assets/js/slick.js"></script>
+  <script src="<?= base_url(); ?>assets/js/accordions.js"></script>
 
   <script language="text/Javascript">
     cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
