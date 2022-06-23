@@ -117,7 +117,7 @@
                 <div class="text-content">
                   <h6>lorem ipsum dolor sit amet!</h6>
                   <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
-                  <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
+                  <a href="<?= base_url(); ?>index.php/contact" class="filled-button">contact us</a>
                 </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
                 <div class="text-content">
                   <h6>magni deserunt dolorem harum quas!</h6>
                   <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
+                  <a href="<?= base_url(); ?>index.php/vehicle" class="filled-button">Vehicle</a>
                 </div>
             </div>
           </div>
