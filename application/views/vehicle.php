@@ -82,9 +82,8 @@
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
 
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="about.html">About Us</a>
-                  <a class="dropdown-item" href="blog.html">Auction</a>
-                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
+                  <a class="dropdown-item" href="<?= base_url(); ?>auction">Auction</a>
+                  <a class="dropdown-item" href="<?= base_url(); ?>lease">Lease</a>
                   <a class="dropdown-item" href="team.html">Team</a>
                   <a class="dropdown-item" href="testimonials.html">Blog</a>
                   <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -96,10 +95,13 @@
                 <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Login</a>
+                <a class="nav-link" href="<?= base_url(); ?>aboutus">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
               </li>
               <li class="nac-item">
-                <a class="nav-link" href="<?php echo base_url() ?>register">Register</a>
+                <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
               </li>
             </ul>
           </div>
