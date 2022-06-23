@@ -1,6 +1,6 @@
 <?php { ?>
-    <!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
   <head>
 
@@ -13,24 +13,24 @@
     <title>BROOOOM.LK</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/owl.css">
   </head>
 
   <body>
 
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
+      <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
@@ -56,56 +56,57 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.php"><h2>BR0000M.LK</h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href=""><h2>BR0000M.LK</h2></a>
+             <button class="navbar-toggler type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
-                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="offers.html">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
-              
-                <div class="dropdown-menu">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="<?php echo base_url() ?>">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="<?php echo base_url() ?>vehicle">Vehicle</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>compare">Vehicle Compare</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offers.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
+
+                  <div class="dropdown-menu">
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="blog.html">Auction</a>
-                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>lease">Lease</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>compare">Vehicle Compare</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
                     <a class="dropdown-item" href="terms.html">Terms</a>
                     <a class="dropdown-item" href="review.html">Review</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Login</a>
-              </li>
-              <li class="nac-item">
-                <a class="nav-link" href="<?php echo base_url() ?>index.php/register">Register</a>
-              </li>
-            </ul>
-          </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo base_url() ?>contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?php echo base_url() ?>login">Login</a>
+                </li>
+                <li class="nac-item">
+                  <a class="nav-link" href="<?php echo base_url() ?>register">Register</a>
+                </li>
+              </ul>
+            </div>
         </div>
       </nav>
     </header>
-    </body>
+  </body>
 
-    </html>
+  </html>
 <?php } ?>

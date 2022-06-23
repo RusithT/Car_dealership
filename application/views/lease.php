@@ -12,12 +12,12 @@
     <title>BROOOOM.LK</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/owl.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/fontawesome.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/owl.css">
   </head>
 
 <body>
@@ -45,14 +45,14 @@
         <div class="main-banner header-text" id="top">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.php"><h2>BR0000M.LK</h2></a>
+          <a class="navbar-brand" href="<?= base_url(); ?>"><h2>BR0000M.LK</h2></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
+                <a class="nav-link" href="<?= base_url(); ?>">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
@@ -93,7 +93,7 @@
     <div class="row">
       <div class="col-md-3">
               <div class="service-item">
-                <img src="../assets/images/cal.jpg" alt="">
+                <img src="<?= base_url(); ?>assets/images/cal.jpg" alt="">
                 <div class="down-content">
                   <h4>Calculate your lease here...</h4>
                   <div style="margin-bottom:10px;">
@@ -106,27 +106,27 @@
         </div>
       <div class="col-md-4">
         <div class="service-item">
-          <img src="../assets/images/handshake.jpg" alt="">
+          <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
           <div class="down-content">
             <h4>Want to apply for a lease?</h4>
             <!-- <div style="margin-bottom:20px;">
               <span>from <sup>RS.</sup>4500 per weekend</span>
             </div> -->
             <p>You can apply for a lese from here...</p>
-            <a href="<?php echo base_url() ?>index.php/terms" class="filled-button">Apply now</a>
+            <a href="<?php echo base_url() ?>terms" class="filled-button">Apply now</a>
           </div>
         </div>
     </div>
     <div class="col-md-4">
         <div class="service-item">
-          <img src="../assets/images/handshake.jpg" alt="">
+          <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
           <div class="down-content">
             <h4>Want to apply for a lease?</h4>
             <!-- <div style="margin-bottom:20px;">
               <span>from <sup>RS.</sup>4500 per weekend</span>
             </div> -->
             <p>You can apply for a lese from here...</p>
-            <a href="<?php echo base_url() ?>index.php/apply_lease" class="filled-button">Apply now</a>
+            <a href="<?php echo base_url() ?>apply_lease" class="filled-button">Apply now</a>
           </div>
         </div>
       </div>
