@@ -43,7 +43,6 @@
 
     <header class="">
         <div class="main-banner header-text" id="top">
-            <div class="Modern-Slider">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="index.php"><h2>BR0000M.LK</h2></a>
@@ -127,11 +126,7 @@
               <span>from <sup>RS.</sup>4500 per weekend</span>
             </div> -->
             <p>You can apply for a lese from here...</p>
-<<<<<<< Updated upstream
-            <a href="" class="filled-button">Apply now</a>
-=======
             <a href="<?php echo base_url() ?>index.php/apply_lease" class="filled-button">Apply now</a>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>

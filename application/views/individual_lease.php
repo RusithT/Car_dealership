@@ -78,7 +78,7 @@
                         <input type="date">
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-6 col-12 mb--20">
                         <label>Email Address*</label>
                         <input type="email" placeholder="Email Address">
                     </div>
@@ -94,7 +94,6 @@
                         </div>
                     </div>
                     
-
                     <!-- Guaranter 1 -->        
                     <div class="col-md-12">
                         <label>Full Name(guaranter 1)</label>
@@ -116,14 +115,11 @@
                         <label>NIC(back)</label>
                         <input type="file">
                     </div>
-                    
                     <div class="col-md-6 col-12 mb--20">
                         <label>Birth Date</label>
                         <input type="date">
-                    </div>                    
-                    
-                    
-                    <div class="col-md-12">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
                         <label>Email Address*</label>
                         <input type="email" placeholder="Email Address">
                     </div>
@@ -138,6 +134,48 @@
                             Female<input type="radio" name="gender" value="female">
                         </div>
                     </div>
+
+                    <!--Guarantor 2-->
+                    <div class="col-md-12">
+                        <label>Full Name(guaranter 2)</label>
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>Name wih initials</label>
+                        <input type="text" placeholder="with initials">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>NIC</label>
+                        <input type="text" placeholder="National Identity Card">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>NIC(front)</label>
+                        <input type="file">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>NIC(back)</label>
+                        <input type="file">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>Birth Date</label>
+                        <input type="date">
+                    </div>
+                    <div class="col-md-6 col-12 mb--20">
+                        <label>Email Address*</label>
+                        <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="col-md-12">
+                        <label>Address</label>
+                        <input type="address" placeholder="Address">
+                    </div>
+                    <div class="col-md-12">
+                        <label>Gender</label>
+                        <div class="col-md-4">
+                            Male<input type="radio" name="gender" value="male">
+                            Female<input type="radio" name="gender" value="female">
+                        </div>
+                    </div>
+
                     <div class="col-12">
                         <button class="uren-register_btn">Apply</button>
                     </div>
