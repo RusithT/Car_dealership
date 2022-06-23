@@ -109,6 +109,7 @@
       </nav>
   </header>
 
+<<<<<<< HEAD
   <!-- Page Content -->
   <!-- Banner Starts Here -->
   <div class="main-banner header-text" id="top">
@@ -121,6 +122,45 @@
             <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
             <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
           </div>
+=======
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>lorem ipsum dolor sit amet!</h6>
+                  <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
+                  <a href="<?= base_url(); ?>index.php/contact" class="filled-button">contact us</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-2">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>magni deserunt dolorem harum quas!</h6>
+                  <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
+                  <a href="<?= base_url(); ?>index.php/vehicle" class="filled-button">Vehicle</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>alias officia qui quae vitae natus!</h6>
+                  <h4>Lorem ipsum dolor <br> sit amet, consectetur.</h4>
+                  <a href="offers.html" class="filled-button">Services</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
+>>>>>>> Kalindu
         </div>
       </div>
       <!-- // Item -->
