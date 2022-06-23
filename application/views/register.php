@@ -48,7 +48,6 @@
 </head>
 
 <body class="template-color-1">
-
     <div class="main-wrapper">
 
         <!-- Begin Uren's Header Main Area -->
