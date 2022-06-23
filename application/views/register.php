@@ -54,6 +54,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row">
                 <div class="col-md-12">&nbsp;</div>
     </div>
+    <div class="row">
+                <div class="col-md-12">&nbsp;</div>
+    </div>
 
     <div class="main-wrapper">
 
@@ -1166,9 +1169,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </div>
                                     <div class="col-md-12">
                                         <label>Gender</label>
-                                        <div class="col-md-4">
-                                            Male<input type="radio" name="gender" value="male">
-                                            Female1 <input type="radio" name="gender" value="female">
+                                        <div class="col-md-3">
+                                            Male <input type="radio" name="gender" value="male">
+                                            Female <input type="radio" name="gender" value="female">
                                         </div>
                                     </div>
                                     
