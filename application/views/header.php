@@ -84,6 +84,7 @@
                     <a class="dropdown-item" href="about.html">About Us</a>
                     <a class="dropdown-item" href="blog.html">Auction</a>
                     <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
+                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/parts">Spare Parts</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
