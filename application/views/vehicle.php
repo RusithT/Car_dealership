@@ -68,7 +68,7 @@
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown active">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?php echo base_url() ?>vehicle">Vehicle</a>
@@ -114,7 +114,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Fleet</h1>
+            <h1>Vehicles</h1>
             <span>Lorem ipsum dolor sit amet.</span>
           </div>
         </div>
