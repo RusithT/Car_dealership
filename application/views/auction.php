@@ -98,17 +98,6 @@
 <<<<<<< HEAD
                     <img src="<?= base_url(); ?>assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
                     <br><br>
-=======
-                    <center>
-                        <h2> <strong class="text-primary">Audi Q5</strong></h2>
-                    </center> <br>
-                    <img src="../assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
-                    <br><br>
-
-
-
-                </figure>
->>>>>>> zulaiha
 
 
 
@@ -215,12 +204,7 @@
                             <small> VEHICLE DESCRIPTION</small>
                         </h2>
                     </div>
-<<<<<<< HEAD
-        
-                    <br /> <br>
-=======
                     <br />
->>>>>>> zulaiha
 
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -288,11 +272,7 @@
             <div class="col-md-6 ">
                 <div class="form-group">
                     <br>
-<<<<<<< HEAD
                     <button type="button text-center" class="btn btn-primary btn-lg btn-block">Bid Now</button>
-=======
-                    <center> <a href="<?php echo base_url() ?>index.php/BidNow" onclick="document.location='default.asp'"><button type="button" class="btn btn-primary btn-lg btn-block">Bid Now</button></a> </center>
->>>>>>> zulaiha
                     <br>
                 </div>
             </div>
