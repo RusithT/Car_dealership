@@ -52,10 +52,6 @@
                 <div class="container">
                     <div class="breadcrumb-content">
                         <h2><br><br>Register Now!</h2>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Registration</li>
-                        </ul>
                     </div>
                 </div>
             </div>
