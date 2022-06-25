@@ -93,9 +93,9 @@
         <br /></br><br /><br />
         <div class="header-text">
         <div class="row">
-            <div class="col-md-6 ">
+            <div class="col-md-6 ">                
                 <figure>
-<<<<<<< HEAD
+
                     <img src="<?= base_url(); ?>assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
                     <br><br>
 
