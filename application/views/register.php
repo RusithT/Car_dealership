@@ -51,11 +51,7 @@
             <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">
-                        <h2>Register Now!</h2>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Registeration</li>
-                        </ul>
+                        <h2><br><br>Register Now!</h2>
                     </div>
                 </div>
             </div>
