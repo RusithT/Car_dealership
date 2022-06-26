@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<<<<<<< HEAD
 <head>
 
     <meta charset="utf-8">
@@ -21,8 +20,6 @@
     <link rel="stylesheet" href="assets/css/owl.css">
   </head>
 
-=======
->>>>>>> 6459a0f58d4250888581104cb9e699bbe9a7f3b7
 <body>
   <!-- Header -->
   <!-- Page Content -->
