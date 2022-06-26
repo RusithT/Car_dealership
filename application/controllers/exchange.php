@@ -5,6 +5,7 @@ class Exchange extends CI_Controller {
 	public function index(){
 		$this->load->view('header');
 		$this->load->view('exchange');
-		$this->load->view('footer');
+        $this->load->view('footer');
+		
 	}
 }
