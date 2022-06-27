@@ -55,7 +55,7 @@
               <span class="d-block text-center my-4 text-muted">&mdash; or &mdash;</span>
               
               <div class="social-login">
-                <a href="#" class="facebook btn d-flex justify-content-center align-items-center">
+                <a href="#" class="facebook btn d-flex justify-content-left align-items-left">
                   <span class="icon-facebook mr-3"></span> Continue with Facebook
                 </a>
                 <a href="#" class="google btn d-flex justify-content-center align-items-center">
