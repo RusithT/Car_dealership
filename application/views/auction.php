@@ -93,13 +93,14 @@
         <br /></br><br /><br />
         <div class="header-text">
         <div class="row">
-            <div class="col-md-6 ">
+            <div class="col-md-6 ">                
                 <figure>
+
                     <img src="<?= base_url(); ?>assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
                     <br><br>
-                    <figcaption>
-                        <h2> <strong class="text-primary">Audi Q5</strong></h2>
-                    </figcaption>
+
+
+
                 </figure>
             </div>
             <br><br>
@@ -182,6 +183,13 @@
                                 <strong class="pull-right">Right Rear</strong>
                             </div>
                         </li>
+                        <li class="list-group-item">
+                            <div class="clearfix">
+                                <span class="pull-left">Drive Line Type</span>
+
+                                <strong class="pull-right">Front Wheel Drive</strong>
+                            </div>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -196,8 +204,7 @@
                             <small> VEHICLE DESCRIPTION</small>
                         </h2>
                     </div>
-        
-                    <br /> <br>
+                    <br />
 
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
