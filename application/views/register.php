@@ -51,7 +51,11 @@
             <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">
-                        <h2><br><br>Register Now!</h2>
+                        <h2>Register Now!</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Registeration</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -164,5 +168,15 @@
 -->
     </body>
 
-    </html>
+    <!-- Main JS -->
+
+    <script src="assets/assets1/js/main.js"></script>
+
+    <script src="assets/assets1/js/main.js"></script>
+
+</body>
+
+
+</html>
+
 <?php } ?>

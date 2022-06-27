@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>BROOOOM.LK</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
 <body>
   <!-- Header -->
   <!-- Page Content -->
@@ -102,8 +121,29 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.337893687632!2d79.87054591486937!3d6.880483273720133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a367c0cc0e9%3A0xfb690e92b68a5eec!2sKirulapone%2C%20Colombo%2000500!5e0!3m2!1sen!2slk!4v1654839999582!5m2!1sen!2slk" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 
-  <!-- Footer Starts Here -->
+    <!-- Footer Starts Here -->
 
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
 </body>
 
 </html>
