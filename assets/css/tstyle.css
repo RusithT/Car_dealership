@@ -34,17 +34,19 @@ h2 {
     height: 500px; } }
 
 .half .contents, .half .bg {
-  width: 50%; }
+  width: 50%;
+  background-image: linear-gradient(180deg, rgb(224, 117, 117), rgb(255, 255, 255)); }
   @media (max-width: 1199.98px) {
     .half .contents, .half .bg {
       width: 100%; } }
   .half .contents .form-group, .half .bg .form-group {
     overflow: hidden;
-    margin-bottom: 1;
-    border: 1px solid rgb(170, 10, 10);
-    padding: 10px 10px;
+    margin-bottom: 0;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0px 0px;
     border-bottom: 1;
     position: relative; }
+
     .half .contents .form-group label, .half .bg .form-group label {
       position: absolute;
       top: 50%;
@@ -109,14 +111,16 @@ h2 {
   .social-login a:hover {
     color: rgb(170, 10, 10); }
   .social-login a.facebook {
-    background: #ffffff; }
+    background: #ffffff;
+    border-color:rgb(170, 10, 10);}
     .social-login a.facebook:hover {
-      background: #ffffff; }
+      background: #df8f8f; }
     .social-login a.google {
-    background: #ffffff; }
+    background: #ffffff;
+    border-color:rgb(170, 10, 10); }
     .social-login a.google:hover {
       background: #ffffff; }
-
+   
 .control {
   display: block;
   position: relative;
@@ -127,7 +131,7 @@ h2 {
   .control .caption {
     position: relative;
     top: .2rem;
-    color: rgb(110, 7, 7); }
+    color: rgb(170, 10, 10); }
 
 .control input {
   position: absolute;
@@ -151,11 +155,11 @@ h2 {
   background: #ccc; }
 
 .control input:checked ~ .control__indicator {
-  background: rgb(110, 7, 7); }
+  background: rgb(170, 10, 10); }
 
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control input:checked:focus ~ .control__indicator {
-  background: rgb(110, 7, 7); }
+  background: rgb(170, 10, 10); }
 
 .control input:disabled ~ .control__indicator {
   background: #e6e6e6;

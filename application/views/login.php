@@ -22,7 +22,7 @@
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-1" style="background-image: url('assets/images/tcars.jpg');"></div>
+    <div class="bg order-1 order-md-1" style="background-image: url('assets/images/tcars.jpg'); opacity: 0.5;"></div>
     <div class="contents order-2 order-md-1">
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -32,7 +32,8 @@
             </div>
 
             <form action="#" method="post">
-              <div class="form-group first">
+
+              <div class="form-group first" style= ">
                 <label for="username">E-mail</label>
                 <input type="text" class="form-control" id="e-mail">
               </div>
@@ -50,18 +51,18 @@
                 <span class="ml-auto"><a href="#" class="forgot-pass"><b>Forgot Password</b></a></span> 
               </div>
 
-              <input type="submit" value="LOGIN" class="btn btn-block btn-primary">
+              <input type="submit" value="LOGIN" class="btn btn-outline-danger btn-lg btn-block">
 
               <span class="d-block text-center my-4 text-muted">&mdash; or &mdash;</span>
               
               <div class="social-login">
-                <a href="#" class="facebook btn d-flex justify-content-left align-items-left">
+                <a href="#" class="facebook btn d-flex justify-content-left align-items-center">
                   <span class="icon-facebook mr-3"></span> Continue with Facebook
                 </a>
-                <a href="#" class="google btn d-flex justify-content-center align-items-center">
+                <a href="#" class="google btn d-flex justify-content-left align-items-center">
                   <span class="icon-google mr-3"></span> Continue with  Google
                 </a>
-                <a href="#" class="Apple btn d-flex justify-content-center align-items-center">
+                <a href="#" class="Apple btn d-flex justify-content-left align-items-center">
                   <span class="icon-apple mr-3"></span> Continue with  Apple
                 </a> 
               </div><br>
