@@ -71,7 +71,7 @@
                 <div class="row">
                     
                     <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-                        <form action="#">
+                        <form action="https://formspree.io/f/xjvldlpp" method = "POST">
                             <div class="login-form">
                                 <h4 class="login-title">Register</h4>
                                 <div class="row">
