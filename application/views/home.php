@@ -1,3 +1,4 @@
+<?php { ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,12 +13,12 @@
   <title>BROOOOM.LK</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?= base_url(); ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Additional CSS Files -->
-  <link rel="stylesheet" href="assets/css/fontawesome.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/fontawesome.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
+  <link rel="stylesheet" href="<?= base_url(); ?>assets/css/owl.css">
 </head>
 
 <body>
@@ -53,55 +54,59 @@
   </div>
 
   <header class="">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.php">
-          <h2>BR0000M.LK</h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="offers.html">Services</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href=""><h2>BR0000M.LK</h2></a>
+             <button class="navbar-toggler type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="<?= base_url(); ?>">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="<?= base_url(); ?>vehicle">Vehicle</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>compare">Vehicle Compare</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offers.html">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
 
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="about.html">About Us</a>
-                <a class="dropdown-item" href="<?php echo base_url() ?>index.php/auction">Auction</a>
-                <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
-                <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
-                <a class="dropdown-item" href="team.html">Team</a>
-                <a class="dropdown-item" href="testimonials.html">Blog</a>
-                <a class="dropdown-item" href="faq.html">FAQ</a>
-                <a class="dropdown-item" href="terms.html">Terms</a>
-                <a class="dropdown-item" href="review.html">Review</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Login</a>
-            </li>
-            <li class="nac-item">
-              <a class="nav-link" href="<?php echo base_url() ?>index.php/register">Register</a>
-            </li>
-          </ul>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="<?= base_url(); ?>auction">Auction</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>lease">Lease</a>
+                    <a class="dropdown-item" href="team.html">Team</a>
+                    <a class="dropdown-item" href="testimonials.html">Blog</a>
+                    <a class="dropdown-item" href="faq.html">FAQ</a>
+                    <a class="dropdown-item" href="terms.html">Terms</a>
+                    <a class="dropdown-item" href="review.html">Review</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?= base_url(); ?>aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
+                </li>
+                <li class="nac-item">
+                  <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
+                </li>
+              </ul>
+            </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   </header>
 
   <!-- Page Content -->
@@ -223,225 +228,6 @@
     <div class="container">
       <div class="more-info-content">
         <div class="row">
-<<<<<<< HEAD
-          <div class="col-md-8 col-xs-12">
-            <ul class="left-info">
-
-              <li><a href="#"><i class="fa fa-envelope"></i>broooom.lk@gmail.com</a></li>
-          </div>
-          <div class="col-md-4">
-            <ul class="right-icons">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <header class="">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.php"><h2>BR0000M.LK</h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-<<<<<<< Updated upstream
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/vehicle">Vehicle</a>
-                  <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
-                </div>
-=======
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>compare">Vehicle</a>
->>>>>>> Stashed changes
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="offers.html">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
-              
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="about.html">About Us</a>
-                    <a class="dropdown-item" href="blog.html">Auction</a>
-                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/lease">Lease</a>
-<<<<<<< Updated upstream
-=======
-                    <a class="dropdown-item" href="<?php echo base_url() ?>index.php/compare">Vehicle Compare</a>
->>>>>>> Stashed changes
-                    <a class="dropdown-item" href="team.html">Team</a>
-                    <a class="dropdown-item" href="testimonials.html">Blog</a>
-                    <a class="dropdown-item" href="faq.html">FAQ</a>
-                    <a class="dropdown-item" href="terms.html">Terms</a>
-                    <a class="dropdown-item" href="review.html">Review</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-<<<<<<< Updated upstream
-                <a class="nav-link" href="<?php echo base_url() ?>index.php/login">Login</a>
-=======
-                <a class="nav-link" href="contact.html">Login</a>
->>>>>>> Stashed changes
-              </li>
-              <li class="nac-item">
-                <a class="nav-link" href="<?php echo base_url() ?>register">Register</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Page Content -->
-    <!-- Banner Starts Here -->
-    <div class="main-banner header-text" id="top">
-        <div class="Modern-Slider">
-          <!-- Item -->
-          <div class="item item-1">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>lorem ipsum dolor sit amet!</h6>
-                  <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
-                  <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
-                </div>
-            </div>
-          </div>
-          <!-- // Item -->
-          <!-- Item -->
-          <div class="item item-2">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>magni deserunt dolorem harum quas!</h6>
-                  <h4>Aliquam iusto harum <br>  ratione porro odio</h4>
-<<<<<<< Updated upstream
-                  <a href="fleet.html" class="filled-button">Vehicle</a>
-=======
-                  <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
->>>>>>> Stashed changes
-                </div>
-            </div>
-          </div>
-          <!-- // Item -->
-          <!-- Item -->
-          <div class="item item-3">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>alias officia qui quae vitae natus!</h6>
-                  <h4>Lorem ipsum dolor <br> sit amet, consectetur.</h4>
-                  <a href="offers.html" class="filled-button">Services</a>
-                </div>
-            </div>
-          </div>
-          <!-- // Item -->
-        </div>
-    </div>
-    <!-- Banner Ends Here -->
-
-    <div class="request-form">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h4>Request a call back right now ?</h4>
-            <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
-          </div>
-          <div class="col-md-4">
-            <a href="<?= base_url(); ?>contact" class="border-button">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>Our <em>Services</em></h2>
-              <span>Once a customer always a family</span>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="assets/images/offer-1-720x480.jpg" alt="">
-              <div class="down-content">
-                <h4>Lorem ipsum dolor sit amet</h4>
-                <div style="margin-bottom:10px;">
-                  <span>from <sup>$</sup>120 per weekend</span>
-                </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-                <a href="offers.html" class="filled-button">Book Now</a>
-              </div>
-            </div>
-            
-            <br>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="assets/images/offer-2-720x480.jpg" alt="">
-              <div class="down-content">
-                <h4>Odio libero vel autem atque consequuntur</h4>
-                <div style="margin-bottom:10px;">
-                  <span>from <sup>$</sup>120 per weekend</span>
-                </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-                <a href="offers.html" class="filled-button">Book Now</a>
-              </div>
-            </div>
-
-            <br>
-          </div>
-          <div class="col-md-4">
-            <div class="service-item">
-              <img src="assets/images/offer-3-720x480.jpg" alt="">
-              <div class="down-content">
-                <h4>Libero eveniet sint nemo beatae</h4>
-                <div style="margin-bottom:10px;">
-                  <span>from <sup>$</sup>120 per weekend</span>
-                </div>
-                <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-                <a href="offers.html" class="filled-button">Book Now</a>
-              </div>
-            </div>
-
-            <br>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="fun-facts">
-      <div class="container">
-        <div class="more-info-content">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="left-image">
-                <img src="assets/images/about-1-570x350.jpg" class="img-fluid" alt="">
-              </div>
-            </div>
-            <div class="col-md-6 align-self-center">
-              <div class="right-content">
-                <span>Who we are</span>
-                <h2>Get to know about <em>our company</em></h2>
-                <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus</p>
-                <a href="about.html" class="filled-button">Read More</a>
-              </div>
-=======
           <div class="col-md-6">
             <div class="left-image">
               <img src="assets/images/about-1-570x350.jpg" class="img-fluid" alt="">
@@ -453,7 +239,6 @@
               <h2>Get to know about <em>our company</em></h2>
               <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus</p>
               <a href="about.html" class="filled-button">Read More</a>
->>>>>>> zulaiha
             </div>
           </div>
         </div>
@@ -506,8 +291,6 @@
           </section>
         </div>
       </div>
-
-
     </div>
   </div>
 
@@ -608,7 +391,6 @@
           </div>
         </div>
       </div>
-
       <br>
       <br>
       <br>
@@ -696,14 +478,14 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Additional Scripts -->
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/js/owl.js"></script>
-  <script src="assets/js/slick.js"></script>
-  <script src="assets/js/accordions.js"></script>
+  <script src="<?= base_url(); ?>assets/js/custom.js"></script>
+  <script src="<?= base_url(); ?>assets/js/owl.js"></script>
+  <script src="<?= base_url(); ?>assets/js/slick.js"></script>
+  <script src="<?= base_url(); ?>assets/js/accordions.js"></script>
 
   <script language="text/Javascript">
     cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
@@ -719,3 +501,4 @@
 </body>
 
 </html>
+<?php } ?>
