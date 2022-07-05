@@ -67,7 +67,7 @@
                 </a> 
               </div><br>
               <div class="container Register">
-                <p><b>Don't have any account?</b> <a href="#"><b>Register Here</b></a>.</p>
+                <p><b>Don't have any account?</b> <a href="<?= base_url(); ?>register"><b>Register Here</b></a>.</p>
               </div>
             </form>
           </div>
