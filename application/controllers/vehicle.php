@@ -5,6 +5,5 @@ class Vehicle extends CI_Controller {
 	public function index(){
 		$this->load->view('header');
 		$this->load->view('vehicle');
-		$this->load->view('footer');
 	}
 }
