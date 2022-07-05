@@ -22,7 +22,11 @@
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-1" style="background-image: url('assets/images/tcars.jpg'); opacity: 0.5;"></div>
+    <div class="bg order-1 order-md-1" style="background-image: url('assets/images/tcars.jpg'); opacity: 0.5;"><br><br><br><br><br><br><br>
+    <h1><b>BRooooM.LK</b></h1><br>
+    <p style="color:red;font-family:courier"><b> Great Prices. Great Vehicles. Great Service</b></p>
+    </div>
+
     <div class="contents order-2 order-md-1">
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -33,7 +37,7 @@
 
             <form action="#" method="post">
 
-              <div class="form-group first" style= ">
+              <div class="form-group first">
                 <label for="username">E-mail</label>
                 <input type="text" class="form-control" id="e-mail">
               </div>
