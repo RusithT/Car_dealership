@@ -66,37 +66,37 @@
                     <div class="row">
 
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-                            <form action="#">
+                            <form action="https://formspree.io/f/mlezkyav" method="POST">
                                 <div class="login-form">
                                     <h4 class="login-title">Register</h4>
                                     <div class="row">
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>First Name</label>
-                                            <input type="text" placeholder="First Name">
+                                            <input type="text" name="firsName" placeholder="First Name">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Last Name</label>
-                                            <input type="text" placeholder="Last Name">
+                                            <input type="text" name="lastName" placeholder="Last Name">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>NIC</label>
-                                            <input type="text" placeholder="National Identity Card">
+                                            <input type="text" name="nic" placeholder="National Identity Card">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>UserName</label>
-                                            <input type="text" placeholder="Example :- johnf">
+                                            <input type="text" name="username" placeholder="Example :- johnf">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Birth Date</label>
-                                            <input type="date">
+                                            <input type="date" name="Bdate">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Email Address*</label>
-                                            <input type="email" placeholder="Email Address">
+                                            <input type="email" name="email" placeholder="Email Address">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Address</label>
-                                            <input type="address" placeholder="Address">
+                                            <input type="address" name="address" placeholder="Address">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Gender</label>
@@ -108,14 +108,15 @@
 
                                         <div class="col-md-6">
                                             <label>Password</label>
-                                            <input type="password" placeholder="Password">
+                                            <input type="password" name="password" placeholder="Password">
                                         </div>
                                         <div class="col-md-6">
                                             <label>Confirm Password</label>
-                                            <input type="password" placeholder="Confirm Password">
+                                            <input type="password" name="confirmPassword" placeholder="Confirm Password">
                                         </div>
                                         <div class="col-12">
-                                            <button class="uren-register_btn">Register</button>
+                                            <button type="submit" class="uren-register_btn">Register</button>
+                                            
                                         </div>
                                     </div>
                                 </div>
