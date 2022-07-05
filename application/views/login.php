@@ -33,7 +33,7 @@
 
             <form action="#" method="post">
 
-              <div class="form-group first" style= ">
+              <div class="form-group first" style= "">
                 <label for="username">E-mail</label>
                 <input type="text" class="form-control" id="e-mail">
               </div>
