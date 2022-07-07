@@ -1,4 +1,5 @@
 <?php { ?>
+
     <!doctype html>
     <html class="no-js" lang="zxx">
 
@@ -65,38 +66,54 @@
                 <div class="container-fluid">
                     <div class="row">
 
+                        <div>
+                            <?php
+
+                            ?>
+
+                        </div>
+
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-                            <form action="https://formspree.io/f/mlezkyav" method="POST">
+                            <?php if ($this->session->flashdata('msg')) {
+                                echo "<h4>" . $this->session->flashdata('msg') . "</h4>";
+                            } ?>
+                            <?php echo validation_errors(); ?>
+                            <?php echo form_open('register/RegisterUser'); ?>
+                            <form action="" method="">
                                 <div class="login-form">
                                     <h4 class="login-title">Register</h4>
                                     <div class="row">
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>First Name</label>
-                                            <input type="text" name="firsName" placeholder="First Name">
+                                            <input type="text" name="firstname" placeholder="First Name" required>
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Last Name</label>
-                                            <input type="text" name="lastName" placeholder="Last Name">
+                                            <input type="text" name="lastname" placeholder="Last Name" required>
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>NIC</label>
-                                            <input type="text" name="nic" placeholder="National Identity Card">
+                                            <input type="text" name="nic" placeholder="National Identity Card" required>
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>UserName</label>
-                                            <input type="text" name="username" placeholder="Example :- johnf">
+                                            <input type="text" name="username" placeholder="Example :- johnf" required>
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Birth Date</label>
-                                            <input type="date" name="Bdate">
+                                            <input type="date" name="bdate" required>
+                                        </div>
+                                        <div class="col-md-6 col-12 mb--20">
+                                            <label>Contact Number</label>
+                                            <input type="text" name="number" placeholder="+94 ----------" required>
                                         </div>
                                         <div class="col-md-12">
                                             <label>Email Address*</label>
-                                            <input type="email" name="email" placeholder="Email Address">
+                                            <input type="email" name="email" placeholder="Email Address" required>
                                         </div>
                                         <div class="col-md-12">
                                             <label>Address</label>
-                                            <input type="address" name="address" placeholder="Address">
+                                            <input type="address" name="address" placeholder="Address" required>
                                         </div>
                                         <div class="col-md-12">
                                             <label>Gender</label>
@@ -108,19 +125,20 @@
 
                                         <div class="col-md-6">
                                             <label>Password</label>
-                                            <input type="password" name="password" placeholder="Password">
+                                            <input type="password" name="password" placeholder="**********" required>
                                         </div>
                                         <div class="col-md-6">
                                             <label>Confirm Password</label>
-                                            <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                                            <input type="password" name="passconf" required>
                                         </div>
+
                                         <div class="col-12">
-                                            <button type="submit" class="uren-register_btn">Register</button>
-                                            
+                                            <button type="submit" class="uren-register_btn" name="submit">Register</button>
+
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                                <?php echo form_close(); ?>
                         </div>
                     </div>
                 </div>
@@ -175,9 +193,9 @@
 
     <script src="assets/assets1/js/main.js"></script>
 
-</body>
+    </body>
 
 
-</html>
+    </html>
 
 <?php } ?>
