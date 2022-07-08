@@ -21,12 +21,12 @@ class Register_model extends CI_Model {
 			);
 
 		$this->db->where('email =', $this->input->post('email'));
-		$query = $this->db->get('users');
+		$query = $this->db->get('regusers');
 		if($query->num_rows()>0){
 			$d="already_exist";
 			return $d;
 		}else{
-			$insert =$this->db->insert('users', $data);
+			$insert =$this->db->insert('regusers', $data);
 			if($insert){
 				return "ok";
 			}else{
