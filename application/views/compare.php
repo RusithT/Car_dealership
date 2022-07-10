@@ -58,9 +58,11 @@
                                     SELECT TYPE
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                    <li><a class="dropdown-item" href="#">CAR</a></li>
+                                    <li><a class="dropdown-item" href="#">VAN</a></li>
+                                    <li><a class="dropdown-item" href="#">JEEP</a></li>
+                                    <li><a class="dropdown-item" href="#">BICYCLE</a></li>
+                                    <li><a class="dropdown-item" href="#">JEEP</a></li>
                                 </ul>
                             </div>
                             <div class="row">
@@ -72,9 +74,10 @@
                                     SELECT BRAND
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                    <li><a class="dropdown-item" href="#">NISSAN</a></li>
+                                    <li><a class="dropdown-item" href="#">HONDA</a></li>
+                                    <li><a class="dropdown-item" href="#">GIULIA</a></li>
+                                    <li><a class="dropdown-item" href="#">BUGATTI VEYRON</a></li>
                                 </ul>
                             </div>
                             <div class="row">
@@ -105,9 +108,11 @@
                                     SELECT TYPE
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                    <li><a class="dropdown-item" href="#">CAR</a></li>
+                                    <li><a class="dropdown-item" href="#">VAN</a></li>
+                                    <li><a class="dropdown-item" href="#">JEEP</a></li>
+                                    <li><a class="dropdown-item" href="#">BICYCLE</a></li>
+                                    <li><a class="dropdown-item" href="#">JEEP</a></li>
                                 </ul>
                             </div>
                             <div class="row">
@@ -119,9 +124,10 @@
                                     SELECT BRAND
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                                    <li><a class="dropdown-item" href="#">NISSAN</a></li>
+                                    <li><a class="dropdown-item" href="#">HONDA</a></li>
+                                    <li><a class="dropdown-item" href="#">GIULIA</a></li>
+                                    <li><a class="dropdown-item" href="#">BUGATTI VEYRON</a></li>
                                 </ul>
                             </div>
                             <div class="row">
