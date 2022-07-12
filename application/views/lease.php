@@ -174,16 +174,28 @@
                 <option id="m60">60 Month</option>
                 <option id="m66">66 Month</option>
                 <option id="m72">72 Month</option>
-              </select>
+              </select><br/> <br/>             
+              <center><p class="modal-title" id="result" style="display:none"></p></center>
             </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
-            <button type="button" class="btn btn-primary">Calculate</button>
+            <button type="button" class="btn btn-primary" onclick="myFunction()">Calculate</button>
           </div>
         </div>
       </div>
+
+      <script>
+        var x = document.getElementById('lease_amount')
+        var y = 5000  
+        var z = x+y
+        function myFunction(){
+          document.getElementById('result').innerHTML = "The lease per month is" + z + ".";
+        }
+      </script>
     </div>
+
+    
 
 
 
