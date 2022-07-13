@@ -100,7 +100,7 @@
                     <span>from <sup>RS.</sup>4500 per weekend</span>
                   </div>
                   <p>You can calculate your lease by choosing easy way to do the payment.</p>
-                  <a href="" class="filled-button">Try now</a>
+                  <a href="#" data-toggle="modal" data-target="#exampleModal" class="filled-button">Try Now</a>
                 </div>
               </div>
         </div>
@@ -131,4 +131,74 @@
         </div>
       </div>
     </div>   
+
+
+
+<!-- Calculator -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px;">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">LEASE CALCULATOR</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="#" id="contact">
+              <label>Select Vehicle Type</label><br>
+              <select name="vehicle_type" id="vehicle_type" class="col-md-8">
+                <option id="car">Car</option>
+                <option id="van">Van</option>
+                <option id="truck">Truck</option>
+                <option id="suv">SUV</option>
+              </select><br><br>
+
+              <input type="radio" id="condition" name="condition">Used/Registered</input><br>
+              <input type="radio" id="condition" name="condition">Recondition/Brand New</input><br><br>
+
+              <label>Lease Amount</label><br>
+              <input type="number" id="lease_amount" name="lease_amount" class="col-md-8" value="Put your lease amount here" min="0"><br><br>
+
+              <label>Lease Period</label><br>
+              <select class="col-md-8" name="lease_period" id="lease_period">
+                <option id="m6">6 Month</option>
+                <option id="m12">12 Month</option>
+                <option id="m18">18 Month</option>
+                <option id="m24">24 Month</option>
+                <option id="m30">30 Month</option>
+                <option id="m36">36 Month</option>
+                <option id="m42">42 Month</option>
+                <option id="m48">48 Month</option>
+                <option id="m54">54 Month</option>
+                <option id="m60">60 Month</option>
+                <option id="m66">66 Month</option>
+                <option id="m72">72 Month</option>
+              </select><br/> <br/>             
+              <center><p class="modal-title" id="result" style="display:none"></p></center>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
+            <button type="button" class="btn btn-primary" onclick="myFunction()">Calculate</button>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var x = document.getElementById('lease_amount')
+        var y = 5000  
+        var z = x+y
+        function myFunction(){
+          document.getElementById('result').innerHTML = "The lease per month is" + z + ".";
+        }
+      </script>
+    </div>
+
+    
+
+
+
+
 </body>
+</html>
