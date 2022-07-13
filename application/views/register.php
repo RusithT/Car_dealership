@@ -75,7 +75,7 @@
 
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
                             <?php if ($this->session->flashdata('msg')) {
-                                echo "<h4>" . $this->session->flashdata('msg') . "</h4>";
+                                echo "<h3>" . $this->session->flashdata('msg') . "</h3>";
                             } ?>
                             <?php echo validation_errors(); ?>
                             <?php echo form_open('register/RegisterUser'); ?>
