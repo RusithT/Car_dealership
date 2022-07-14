@@ -154,43 +154,44 @@
                 <option id="suv">SUV</option>
               </select><br><br>
 
-              <input type="radio" id="condition" name="condition">Used/Registered</input><br>
-              <input type="radio" id="condition" name="condition">Recondition/Brand New</input><br><br>
+              <input type="radio" id="condition" name="condition">&nbsp;Recondition</input>
+              <input type="radio" id="condition" name="condition">&nbsp;Brand New</input><br>
+              <input type="radio" id="condition" name="condition">&nbsp;Registered</input>&nbsp;
+              <input type="radio" id="condition" name="condition">&nbsp;Unregistered</input><br><br>
 
               <label>Lease Amount</label><br>
               <input type="number" id="lease_amount" name="lease_amount" class="col-md-8" value="Put your lease amount here" min="0"><br><br>
 
               <label>Lease Period</label><br>
               <select class="col-md-8" name="lease_period" id="lease_period">
-                <option id="m6">6 Month</option>
-                <option id="m12">12 Month</option>
-                <option id="m18">18 Month</option>
-                <option id="m24">24 Month</option>
-                <option id="m30">30 Month</option>
-                <option id="m36">36 Month</option>
-                <option id="m42">42 Month</option>
-                <option id="m48">48 Month</option>
-                <option id="m54">54 Month</option>
-                <option id="m60">60 Month</option>
-                <option id="m66">66 Month</option>
-                <option id="m72">72 Month</option>
+                <option value="6">6 Month</option>
+                <option value="12">12 Month</option>
+                <option value="18">18 Month</option>
+                <option value="24">24 Month</option>
+                <option value="30">30 Month</option>
+                <option value="36">36 Month</option>
+                <option value="42">42 Month</option>
+                <option value="48">48 Month</option>
+                <option value="54">54 Month</option>
+                <option value="60">60 Month</option>
+                <option value="66">66 Month</option>
+                <option value="72">72 Month</option>
               </select><br/> <br/>             
-              <center><p class="modal-title" id="result" style="display:none"></p></center>
-            </form>
+              <p>The Amount is: Rs.<span id="amount"></span></p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Reset</button>
-            <button type="button" class="btn btn-primary" onclick="myFunction()">Calculate</button>
+            <input type="button" class="btn btn-secondary" value="Reset"></button>
+            <input type="button" class="btn btn-primary" onclick="multiplyBy()" value="calculate"></button>
+            
           </div>
         </div>
       </div>
 
       <script>
-        var x = document.getElementById('lease_amount')
-        var y = 5000  
-        var z = x+y
-        function myFunction(){
-          document.getElementById('result').innerHTML = "The lease per month is" + z + ".";
+        function multiplyBy(){
+          num1= document.getElementById('lease_amount').value;
+          num2= document.getElementById('lease_period').value;
+          document.getElementById('amount').innerHTML = num1 * num2;
         }
       </script>
     </div>
