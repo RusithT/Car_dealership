@@ -31,8 +31,7 @@ h2 {
 
 @media (max-width: 991.98px) {
   .half .bg {
-    height: 500px; }
-   }
+    height: 500px; } }
 
 .half .contents, .half .bg {
   width: 50%; }
@@ -43,7 +42,7 @@ h2 {
     overflow: hidden;
     margin-bottom: 1;
     border: 1px solid rgb(170, 10, 10);
-    padding: 5px 5px;
+    padding: 10px 10px;
     border-bottom: 1;
     position: relative; }
     .half .contents .form-group label, .half .bg .form-group label {
@@ -55,38 +54,32 @@ h2 {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-
     .half .contents .form-group input:focus + label, .half .bg .form-group input:focus + label {
       margin-top: -20px; }
     .half .contents .form-group.first, .half .bg .form-group.first {
-      border-top-left-radius: 0px;
-      border-top-right-radius: 0px; }
-
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px; }
     .half .contents .form-group.last, .half .bg .form-group.last {
       border-bottom: 1px solid rgb(170, 10, 10);
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px; }
-
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px; }
     .half .contents .form-group label, .half .bg .form-group label {
       font-size: 12px;
       display: block;
       margin-bottom:0;
-      color: #4e4545; }
-
+      color: #b3b3b3; }
     .half .contents .form-group.field--not-empty label, .half .bg .form-group.field--not-empty label {
       margin-top: -20px; }
-
-
   .half .contents .form-control, .half .bg .form-control {
     border: none;
     padding: 0;
-    font-size: 18px !important;
+    font-size: 10px;
     border-radius: 0; }
-
     .half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus {
       outline: none;
       -webkit-box-shadow: none;
-      box-shadow: none; }      
+      box-shadow: none; }
+
 .half .bg {
   background-size: cover;
   background-position: center; }
@@ -202,129 +195,36 @@ h2 {
   text-align: left;
   }
 
-  @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
-  * { box-sizing: border-box; }
+.bg-image {
+    /* The image used */
+    background-image: url("images/cars.jpg");
   
-  body {
-    
-    background: #aedaa6;
-    font-family: "Raleway"; }
-    
-   .card {
-      width: 650px;
-      height: 375px;
-      position: absolute;
-      background: white;
-      margin: 0 auto;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-      transition: all 0.3s;}
-      
-      .hover { 
-        box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
-      
-      nav {
-        
-        width: 100%;
-        color: #727272;
-        text-transform: uppercase;
-        padding: 20px;
-        border-bottom: 2px solid #efefef;
-        font-size: 12px;}
-        
-        svg.heart {
-          
-          height: 24px;
-          width: 24px;
-          float: right;
-          margin-top: -3px;
-          transition: all 0.3s ease;
-          cursor: pointer;}
-          
-        .hover {
-            
-            fill: red; 
-          }
-        svg.arrow {
-          
-          float: left;
-          height: 15px;
-          width: 15px;
-          margin-right: 10px; 
-        }
-        
-      .photo {
-        
-        padding: 30px;
-        width: 45%;
-        text-align: center;
-        float: left;}
-        
-        img { 
-          max-height: 240px; 
-        }
-
-      .description {
-        
-         padding: 30px;
-         float: left;
-         width: 55%;
-         border-left: 2px solid #efefef;}
-         
-         h1 {
-           color: #515151;
-           font-weight: 300;
-           padding-top: 15px;
-           margin: 0;
-           font-size: 30px;
-           font-weight: 300;
-         }
-       
-         h2 {
-          color: #515151;
-          margin: 0;
-          text-transform: uppercase;
-          font-weight: 500;
-         }
-        
-         h4 { 
-           margin: 0;
-           color: #727272;
-           text-transform: uppercase;
-           font-weight: 500;
-           font-size: 12px
-         }
-        
-         p { 
-           font-size: 12px; 
-           line-height: 20px;
-           color: #727272;
-           padding: 20px 0;
-           margin: 0;
-        }
-        
-         button {
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
   
-           outline: 0;
-           border: 0;
-           background: none;
-           border: 1px solid #d9d9d9;
-           padding: 8px 0px;
-           margin-bottom: 30px;
-           color: #515151;
-           text-transform: uppercase;
-           width: 125px;
-           font-family: inherit;
-           margin-right: 5px;
-           transition: all 0.3s ease;
-           font-weight: 500;}
-           
-           .hover {
-             
-             background: darken(white, 2%);
-             border: 1px solid #aedaa6;
-             color: #aedaa6;
-             cursor: pointer;}
-             
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }

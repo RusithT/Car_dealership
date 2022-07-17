@@ -100,7 +100,7 @@
                     <span>from <sup>RS.</sup>4500 per weekend</span>
                   </div>
                   <p>You can calculate your lease by choosing easy way to do the payment.</p>
-                  <a href="#" data-toggle="modal" data-target="#exampleModal" class="filled-button">Try Now</a>
+                  <a href="" class="filled-button">Try now</a>
                 </div>
               </div>
         </div>
@@ -131,75 +131,4 @@
         </div>
       </div>
     </div>   
-
-
-
-<!-- Calculator -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px;">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">LEASE CALCULATOR</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form action="#" id="contact">
-              <label>Select Vehicle Type</label><br>
-              <select name="vehicle_type" id="vehicle_type" class="col-md-8">
-                <option id="car">Car</option>
-                <option id="van">Van</option>
-                <option id="truck">Truck</option>
-                <option id="suv">SUV</option>
-              </select><br><br>
-
-              <input type="radio" id="condition" name="condition">&nbsp;Recondition</input>
-              <input type="radio" id="condition" name="condition">&nbsp;Brand New</input><br>
-              <input type="radio" id="condition" name="condition">&nbsp;Registered</input>&nbsp;
-              <input type="radio" id="condition" name="condition">&nbsp;Unregistered</input><br><br>
-
-              <label>Lease Amount</label><br>
-              <input type="number" id="lease_amount" name="lease_amount" class="col-md-8" value="Put your lease amount here" min="0"><br><br>
-
-              <label>Lease Period</label><br>
-              <select class="col-md-8" name="lease_period" id="lease_period">
-                <option value="6">6 Month</option>
-                <option value="12">12 Month</option>
-                <option value="18">18 Month</option>
-                <option value="24">24 Month</option>
-                <option value="30">30 Month</option>
-                <option value="36">36 Month</option>
-                <option value="42">42 Month</option>
-                <option value="48">48 Month</option>
-                <option value="54">54 Month</option>
-                <option value="60">60 Month</option>
-                <option value="66">66 Month</option>
-                <option value="72">72 Month</option>
-              </select><br/> <br/>             
-              <p>The Amount is: Rs.<span id="amount"></span></p>
-          </div>
-          <div class="modal-footer">
-            <input type="button" class="btn btn-secondary" value="Reset"></button>
-            <input type="button" class="btn btn-primary" onclick="multiplyBy()" value="calculate"></button>
-            
-          </div>
-        </div>
-      </div>
-
-      <script>
-        function multiplyBy(){
-          num1= document.getElementById('lease_amount').value;
-          num2= document.getElementById('lease_period').value;
-          document.getElementById('amount').innerHTML = num1 * num2;
-        }
-      </script>
-    </div>
-
-    
-
-
-
-
 </body>
-</html>

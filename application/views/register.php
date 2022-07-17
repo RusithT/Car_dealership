@@ -33,13 +33,6 @@
         <!-- Nice Select -->
         <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/nice-select.css">
 
-        <style type="text/css">
-            .error {
-                color: #d92550;
-                padding-top: 10px;
-            }
-        </style>
-
         <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
         <!--
     <script src="assets/js/vendor/vendor.min.js"></script>
@@ -58,7 +51,11 @@
             <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">
-                        <h2><br><br>Register Now!</h2>
+                        <h2>Register Now!</h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Registeration</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -69,73 +66,62 @@
                     <div class="row">
 
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-                            <form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
-                                <!--  <form action="https://formspree.io/f/mlezkyav" method="POST"> -->
+                            <form action="#">
                                 <div class="login-form">
                                     <h4 class="login-title">Register</h4>
                                     <div class="row">
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>First Name</label>
-                                            <input type="text" name="firsName" placeholder="First Name">
+                                            <input type="text" placeholder="First Name">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Last Name</label>
-                                            <input type="text" name="lastName" placeholder="Last Name">
+                                            <input type="text" placeholder="Last Name">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>NIC</label>
-                                            <input type="text" name="nic" placeholder="National Identity Card">
+                                            <input type="text" placeholder="National Identity Card">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>UserName</label>
-                                            <input type="text" name="username" placeholder="Example :- johnf">
+                                            <input type="text" placeholder="Example :- johnf">
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Birth Date</label>
-                                            <input type="date" name="bdate">
+                                            <input type="date">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Email Address*</label>
-                                            <input type="email" name="email" placeholder="Email Address">
+                                            <input type="email" placeholder="Email Address">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Address</label>
-                                            <input type="text" name="address" placeholder="Address">
+                                            <input type="address" placeholder="Address">
                                         </div>
                                         <div class="col-md-12">
                                             <label>Gender</label>
                                             <div class="col-md-3">
-                                                Male <input type="radio" name="gender" value="male" checked="checked">
+                                                Male <input type="radio" name="gender" value="male">
                                                 Female <input type="radio" name="gender" value="female">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <label>Password</label>
-                                            <input type="password" name="password" placeholder="Password" id="password">
+                                            <input type="password" placeholder="Password">
                                         </div>
                                         <div class="col-md-6">
                                             <label>Confirm Password</label>
-                                            <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                                            <input type="password" placeholder="Confirm Password">
                                         </div>
                                         <div class="col-12">
-                                            <button type="submit" name="submit" class="uren-register_btn" id="send_form">Register</button>
-
+                                            <button class="uren-register_btn">Register</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                                    <!-- Sweet alert msg  -->
-                    <div class="form-row">
-                        <div id="msg_div">
-                            <span id="res_message">
-                            </span>
-                        </div>
-                    </div>
-
-                                    <!--  -->
                 </div>
             </div>
         </div>
@@ -182,136 +168,15 @@
 -->
     </body>
 
+    <!-- Main JS -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="assets/assets1/js/main.js"></script>
 
+    <script src="assets/assets1/js/main.js"></script>
 
-
-    <script type="text/javascript">
-        // just for the demos, avoids form submit
-        (function() {
-            'use strict';
-            window.addEventListener('load', function() {
-                var forms = document.getElementsByClassName('needs-validation');
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                        if (form.checkValidity() === false) {
-                            //alert('fail');
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
+</body>
 
 
-        if ($("#ajax_form").length > 0) {
-            $("#ajax_form").validate({
-
-                rules: {
-                    firsName: {
-                        required: true
-                    },
-                    lastName: {
-                        required: true
-                    },
-                    nic: {
-                        required: true,
-                    },
-                    username: {
-                        required: true
-                    },
-                    bdate: {
-                        required: true
-                    },
-                    email: {
-                        required: true
-                    },
-                    address: {
-                        required: true
-                    },
-                    password: {
-                        required: true,
-                        minlength: 5
-                    },
-                    confirmPassword: {
-                        required: true,
-                        minlength: 5,
-                        equalTo: "#password"
-                    },
-                },
-                messages: {
-
-                    firsName: {
-                        required: "Please provide a valid First Name",
-                    },
-                    lastName: {
-                        required: "Please provide a valid Last Name ",
-                    },
-                    nic: {
-                        required: "Please provide a valid NIC",
-                    },
-                    username: {
-                        required: "Please provide a valid Username ",
-                    },
-                    bdate: {
-                        required: "Please provide a valid Birth Date",
-                    },
-                    email: {
-                        required: "Please select a valid Email ",
-                    },
-                    address: {
-                        required: "Please provide a valid Address",
-                    },
-                    password: {
-                        required: "Please provide a valid Password",
-                    },
-                    confirmPassword: {
-                        required: "Please provide a valid Confirm Password ",
-                    },
-
-                },
-                submitHandler: function(form) {
-                    $('#send_form').html('Sending..');
-                    $.ajax({
-                        url: "<?php echo base_url('Register/create') ?>",
-                        type: "POST",
-                        data: $('#ajax_form').serialize(),
-                        dataType: "json",
-                        success: function(response) {
-                            if (response.success) {
-
-                                $('#send_form').html('SAVE');
-                                $('#res_message').html(response.msg);
-                                $('#res_message').show();
-                                var forms = document.getElementsByClassName('needs-validation');
-                                form.classList.remove('was-validated');
-
-                            } else {
-                                $('#send_form').html('SAVE');
-                                $('#res_message').html(response.msg);
-                                $('#res_message').show();
-                            }
-                        },
-                        error: function(response) {
-                            alert(JSON.stringify(response));
-                        }
-                    });
-                }
-            });
-        }
-
-
-
-       
-    </script>
-
-    </body>
-
-
-    </html>
+</html>
 
 <?php } ?>

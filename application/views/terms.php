@@ -1,4 +1,3 @@
-<?php { ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,12 +52,12 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="<?= base_url(); ?>index.php">Home
+                  <a class="nav-link" href="index.html">Home
                     <span class="sr-only">(current)</span>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url(); ?>vehicle">Vehicle</a>
+                  <a class="nav-link" href="fleet.html">Vehicle</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="offers.html">Services</a>
@@ -67,8 +66,8 @@
                   <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
 
                   <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= base_url(); ?>aboutus">About Us</a>
-                    <a class="dropdown-item" href="<?= base_url(); ?>auction">Auction</a>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                    <a class="dropdown-item" href="blog.html">Auction</a>
                     <a class="dropdown-item" href="team.html">Team</a>
                     <a class="dropdown-item" href="testimonials.html">Blog</a>
                     <a class="dropdown-item" href="faq.html">FAQ</a>
@@ -77,13 +76,13 @@
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
+                  <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
+                  <a class="nav-link" href="contact.html">Login</a>
                 </li>
                 <li class="nac-item">
-                  <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
+                  <a class="nav-link" href="contact.html">Register</a>
                 </li>
               </ul>
             </div>
@@ -267,4 +266,3 @@
 </body>
 
 </html>
-<?php } ?>

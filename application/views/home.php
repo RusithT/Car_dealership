@@ -117,8 +117,8 @@
       <div class="item item-1">
         <div class="img-fill">
           <div class="text-content">
-            <h6>Want to buy a car!</h6>
-            <h4>Then vist us <br> to buy your dream car</h4>
+            <h6>lorem ipsum dolor sit amet!</h6>
+            <h4>Quam temporibus accusam <br> hic ducimus quia</h4>
             <a href="<?= base_url(); ?>contact" class="filled-button">contact us</a>
           </div>
         </div>
@@ -128,8 +128,8 @@
       <div class="item item-2">
         <div class="img-fill">
           <div class="text-content">
-            <h6>Looking for a Vahicle!</h6>
-            <h4>Then you are in right place to <br> make your dreame come true...</h4>
+            <h6>magni deserunt dolorem harum quas!</h6>
+            <h4>Aliquam iusto harum <br> ratione porro odio</h4>
             <a href="<?= base_url(); ?>vehicle" class="filled-button">Vehicle</a>
           </div>
         </div>
@@ -139,8 +139,8 @@
       <div class="item item-3">
         <div class="img-fill">
           <div class="text-content">
-            <h6>We give you the best service ever!</h6>
-            <h4>Want tokeep your vehicle healthy as you? <br> Then visit us once...</h4>
+            <h6>alias officia qui quae vitae natus!</h6>
+            <h4>Lorem ipsum dolor <br> sit amet, consectetur.</h4>
             <a href="offers.html" class="filled-button">Services</a>
           </div>
         </div>
