@@ -9,8 +9,8 @@ class Register_model extends CI_Model {
 
 
 		$data = array(
-			'fname'=> $this->input->post('firsName'),
-            'lname'=> $this->input->post('lastName'),
+			'fname'=> $this->input->post('firstname'),
+            'lname'=> $this->input->post('lastname'),
             'nic'=> $this->input->post('nic'),
             'uname'=> $this->input->post('username'),
             'bdate'=> $this->input->post('bdate'),
