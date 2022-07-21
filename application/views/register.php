@@ -34,6 +34,13 @@
         <!-- Nice Select -->
         <link rel="stylesheet" href="<?= base_url(); ?>assets/css/plugins/nice-select.css">
 
+        <style type="text/css">
+            .error {
+                color: #d92550;
+                padding-top: 10px;
+            }
+        </style>
+
         <!-- Vendor & Plugins CSS (Please remove the comment from below vendor.min.css & plugins.min.css for better website load performance and remove css files from the above) -->
         <!--
     <script src="assets/js/vendor/vendor.min.js"></script>
@@ -52,11 +59,7 @@
             <div class="breadcrumb-area">
                 <div class="container">
                     <div class="breadcrumb-content">
-                        <h2>Register Now!</h2>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="active">Registeration</li>
-                        </ul>
+                        <h2><br><br>Register Now!</h2>
                     </div>
                 </div>
             </div>
@@ -75,9 +78,6 @@
 
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
 <<<<<<< HEAD
-                            <form action="#">
-=======
-<<<<<<< HEAD
                             <form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
                                 <!--  <form action="https://formspree.io/f/mlezkyav" method="POST"> -->
 =======
@@ -88,39 +88,11 @@
                             <?php echo form_open('register/RegisterUser'); ?>
                             <form action="" method="">
 >>>>>>> Sajinth
->>>>>>> origin/yashith
                                 <div class="login-form">
                                     <h4 class="login-title">Register</h4>
                                     <div class="row">
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>First Name</label>
-<<<<<<< HEAD
-                                            <input type="text" placeholder="First Name">
-                                        </div>
-                                        <div class="col-md-6 col-12 mb--20">
-                                            <label>Last Name</label>
-                                            <input type="text" placeholder="Last Name">
-                                        </div>
-                                        <div class="col-md-6 col-12 mb--20">
-                                            <label>NIC</label>
-                                            <input type="text" placeholder="National Identity Card">
-                                        </div>
-                                        <div class="col-md-6 col-12 mb--20">
-                                            <label>UserName</label>
-                                            <input type="text" placeholder="Example :- johnf">
-                                        </div>
-                                        <div class="col-md-6 col-12 mb--20">
-                                            <label>Birth Date</label>
-                                            <input type="date">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <label>Email Address*</label>
-                                            <input type="email" placeholder="Email Address">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <label>Address</label>
-                                            <input type="address" placeholder="Address">
-=======
                                             <input type="text" name="firstname" placeholder="First Name" required>
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
@@ -158,25 +130,17 @@
 =======
                                             <input type="address" name="address" placeholder="Address" required>
 >>>>>>> Sajinth
->>>>>>> origin/yashith
                                         </div>
                                         <div class="col-md-12">
                                             <label>Gender</label>
                                             <div class="col-md-3">
-                                                Male <input type="radio" name="gender" value="male">
+                                                Male <input type="radio" name="gender" value="male" checked="checked">
                                                 Female <input type="radio" name="gender" value="female">
                                             </div>
                                         </div>
 
                                         <div class="col-md-6">
                                             <label>Password</label>
-<<<<<<< HEAD
-                                            <input type="password" placeholder="Password">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label>Confirm Password</label>
-                                            <input type="password" placeholder="Confirm Password">
-=======
 <<<<<<< HEAD
                                             <input type="password" name="password" placeholder="Password" id="password">
 =======
@@ -186,26 +150,30 @@
                                         <div class="col-md-6">
                                             <label>Confirm Password</label>
                                             <input type="password" name="passconf" required>
->>>>>>> origin/yashith
                                         </div>
 
                                         <div class="col-12">
-<<<<<<< HEAD
-                                            <button class="uren-register_btn">Register</button>
-=======
 <<<<<<< HEAD
                                             <button type="submit" name="submit" class="uren-register_btn" id="send_form">Register</button>
 =======
                                             <button type="submit" class="uren-register_btn" name="submit">Register</button>
 >>>>>>> Sajinth
 
->>>>>>> origin/yashith
                                         </div>
                                     </div>
                                 </div>
                                 <?php echo form_close(); ?>
                         </div>
                     </div>
+                                    <!-- Sweet alert msg  -->
+                    <div class="form-row">
+                        <div id="msg_div">
+                            <span id="res_message">
+                            </span>
+                        </div>
+                    </div>
+
+                                    <!--  -->
                 </div>
             </div>
         </div>
@@ -252,18 +220,11 @@
 -->
     </body>
 
-    <!-- Main JS -->
 
-    <script src="assets/assets1/js/main.js"></script>
-
-    <script src="assets/assets1/js/main.js"></script>
-
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
-<<<<<<< HEAD
-</html>
-=======
 
     <script type="text/javascript">
         // just for the demos, avoids form submit
@@ -386,6 +347,5 @@
 
 
     </html>
->>>>>>> origin/yashith
 
 <?php } ?>

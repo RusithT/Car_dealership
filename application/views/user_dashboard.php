@@ -19,10 +19,11 @@
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/fontawesome.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/owl.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
   <!-- ***** Preloader Start ***** -->
   <div id="preloader">
     <div class="jumper">
@@ -97,12 +98,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="<?= base_url(); ?>aboutus">About Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
-                </li>
-                <li class="nac-item">
-                  <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
-                </li>
+                <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <?php echo $this->session->userdata('fname'). " " .$this->session->userdata('lname');?>
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="<?= base_url('login/LogoutUser');?>">Logout</a></li>
+						</ul>
+					</li>
               </ul>
             </div>
         </div>
