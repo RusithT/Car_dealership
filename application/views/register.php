@@ -77,17 +77,8 @@
                         </div>
 
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
-<<<<<<< HEAD
                             <form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
                                 <!--  <form action="https://formspree.io/f/mlezkyav" method="POST"> -->
-=======
-                            <?php if ($this->session->flashdata('msg')) {
-                                echo "<h3>" . $this->session->flashdata('msg') . "</h3>";
-                            } ?>
-                            <?php echo validation_errors(); ?>
-                            <?php echo form_open('register/RegisterUser'); ?>
-                            <form action="" method="">
->>>>>>> Sajinth
                                 <div class="login-form">
                                     <h4 class="login-title">Register</h4>
                                     <div class="row">
@@ -109,15 +100,7 @@
                                         </div>
                                         <div class="col-md-6 col-12 mb--20">
                                             <label>Birth Date</label>
-<<<<<<< HEAD
                                             <input type="date" name="bdate">
-=======
-                                            <input type="date" name="bdate" required>
-                                        </div>
-                                        <div class="col-md-6 col-12 mb--20">
-                                            <label>Contact Number</label>
-                                            <input type="text" name="number" placeholder="+94 ----------" required>
->>>>>>> Sajinth
                                         </div>
                                         <div class="col-md-12">
                                             <label>Email Address*</label>
@@ -125,11 +108,7 @@
                                         </div>
                                         <div class="col-md-12">
                                             <label>Address</label>
-<<<<<<< HEAD
                                             <input type="text" name="address" placeholder="Address">
-=======
-                                            <input type="address" name="address" placeholder="Address" required>
->>>>>>> Sajinth
                                         </div>
                                         <div class="col-md-12">
                                             <label>Gender</label>
@@ -141,11 +120,7 @@
 
                                         <div class="col-md-6">
                                             <label>Password</label>
-<<<<<<< HEAD
                                             <input type="password" name="password" placeholder="Password" id="password">
-=======
-                                            <input type="password" name="password" placeholder="**********" required>
->>>>>>> Sajinth
                                         </div>
                                         <div class="col-md-6">
                                             <label>Confirm Password</label>
@@ -153,11 +128,7 @@
                                         </div>
 
                                         <div class="col-12">
-<<<<<<< HEAD
                                             <button type="submit" name="submit" class="uren-register_btn" id="send_form">Register</button>
-=======
-                                            <button type="submit" class="uren-register_btn" name="submit">Register</button>
->>>>>>> Sajinth
 
                                         </div>
                                     </div>
