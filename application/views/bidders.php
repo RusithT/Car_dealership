@@ -94,7 +94,7 @@
  back end eke pennana widiyata table eke bidders saha e gollonge 
  <br> username ekai bid karapu amount ekai country/state ekai bid karapu <br>
  dawas ha welawa table ekk widiyta display wenna thibboth hondai  
-    </body>
+    </body>   
 
     </html>
 <?php } ?>

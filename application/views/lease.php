@@ -93,7 +93,7 @@
   </header>
   <br /><br /><br /></br>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-5">
       <div class="service-item">
         <img src="<?= base_url(); ?>assets/images/cal.jpg" alt="">
         <div class="down-content">
@@ -106,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-5">
       <div class="service-item">
         <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
         <div class="down-content">
@@ -116,19 +116,6 @@
             </div> -->
           <p>You can apply for a lese from here...</p>
           <a href="<?php echo base_url() ?>terms" class="filled-button">Apply now</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="service-item">
-        <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
-        <div class="down-content">
-          <h4>Want to apply for a lease?</h4>
-          <!-- <div style="margin-bottom:20px;">
-              <span>from <sup>RS.</sup>4500 per weekend</span>
-            </div> -->
-          <p>You can apply for a lese from here...</p>
-          <a href="<?php echo base_url() ?>apply_lease" class="filled-button">Apply now</a>
         </div>
       </div>
     </div>

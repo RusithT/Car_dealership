@@ -184,7 +184,7 @@
                 <span>from <sup>$</sup>120 per weekend</span>
               </div>
               <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-              <a href="offers.html" class="filled-button">Book Now</a>
+              <a href="<?= base_url(); ?>vehicle" class="filled-button">Book Now</a>
             </div>
           </div>
 
@@ -199,7 +199,7 @@
                 <span>from <sup>$</sup>120 per weekend</span>
               </div>
               <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-              <a href="offers.html" class="filled-button">Book Now</a>
+              <a href="<?= base_url(); ?>vehicle" class="filled-button">Book Now</a>
             </div>
           </div>
 
@@ -214,7 +214,7 @@
                 <span>from <sup>$</sup>120 per weekend</span>
               </div>
               <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
-              <a href="offers.html" class="filled-button">Book Now</a>
+              <a href="<?= base_url(); ?>vehicle" class="filled-button">Book Now</a>
             </div>
           </div>
 

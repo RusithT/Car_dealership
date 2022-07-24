@@ -272,7 +272,7 @@
             <div class="col-md-6 ">
                 <div class="form-group">
                     <br>
-                    <button type="button text-center" class="btn btn-primary btn-lg btn-block">Bid Now</button>
+                    <button type="button text-center" class="btn btn-primary btn-lg btn-block" href="<?= base_url(); ?>bidders.php">Bid Now</button>
                     <br>
                 </div>
             </div>
