@@ -45,7 +45,7 @@
           <div class="col-md-4">
             <ul class="right-icons">
               <li><a href="https://www.facebook.com/BROOOOMlk-103707022400276"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/broo_oom"><i class="fa fa-twitter"></i></a></li>
               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
