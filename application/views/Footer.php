@@ -7,7 +7,7 @@
           <ul class="social-icons">
             <li><a rel="nofollow" href="https://www.facebook.com/BROOOOMlk-103707022400276" target="_blank"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://twitter.com/broo_oom"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
         <div class="col-md-3 footer-item">
