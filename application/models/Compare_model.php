@@ -63,12 +63,12 @@ class Compare_model extends CI_Model {
 
 	public function compare_vehicles(){
 
-        $sql1="SELECT * FROM `vehicles` WHERE vehicle_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'";
+        $sql1="SELECT * FROM `vehicles` WHERE type_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'";
         $row1 = $this->db->query($sql1)->row();
         
-        $sql2="SELECT * FROM `vehicles` WHERE vehicle_id='".$_POST['type2']."' AND brand_id='".$_POST['brand2']."' AND model_id='".$_POST['model2']."'";
+        $sql2="SELECT * FROM `vehicles` WHERE type_id='".$_POST['type2']."' AND brand_id='".$_POST['brand2']."' AND model_id='".$_POST['model2']."'";
         $row2 = $this->db->query($sql2)->row();
-        
+       
         
         $option="<table class='table table-bordered' style='position:relative;'>";
         $option.="<thead class='thead-dark'>";
