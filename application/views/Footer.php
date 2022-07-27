@@ -5,9 +5,9 @@
           <h4>Car Rental Website</h4>
           <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
           <ul class="social-icons">
-            <li><a rel="nofollow" href="https://www.facebook.com/BROOOOMlk-103707022400276" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/broo_oom"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a rel="nofollow" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
         <div class="col-md-3 footer-item">
@@ -77,8 +77,8 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
 
   <!-- Additional Scripts -->
   <script src="<?= base_url(); ?>assets/js/custom.js"></script>

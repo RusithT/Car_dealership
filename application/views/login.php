@@ -49,11 +49,11 @@
               </div>
 
               <div class="d-flex mb-5 align-items-center">
-                <label class="control control--checkbox mb-0"><span class="caption"><b>Remember me</b></span></span>
+                <!-- <label class="control control--checkbox mb-0"><span class="caption"><b>Remember me</b></span></span>
                   <input type="checkbox" checked="checked" />
                   <div class="control__indicator"></div>
-                </label>
-                <span class="ml-auto"><a href="#" class="forgot-pass"><b>Forgot Password</b></a></span>
+                </label> -->
+                <!-- <span class="ml-auto"><a href="#" class="forgot-pass"><b>Forgot Password</b></a></span> -->
               </div>
 
               <input type="submit" value="LOGIN" id="login" class="btn btn-outline-danger btn-lg btn-block">
@@ -61,7 +61,7 @@
               <span class="d-block text-center my-4 text-muted">&mdash; or &mdash;</span>
 
               <div class="social-login">
-                <a href="#" class="facebook btn d-flex justify-content-left align-items-center">
+                <a href="https://www.facebook.com/BROOOOMlk-103707022400276" class="facebook btn d-flex justify-content-left align-items-center">
                   <span class="icon-facebook mr-3"></span> Continue with Facebook
                 </a>
                 <a href="#" class="google btn d-flex justify-content-left align-items-center">
@@ -71,7 +71,7 @@
                   <span class="icon-apple mr-3"></span> Continue with Apple
                 </a>
               </div><br>
-              <div class="container Register">
+              <div>
                 <p><b>Don't have any account?</b> <a href="<?= base_url(); ?>register"><b>Register Here</b></a>.</p>
               </div>
             </form>

@@ -34,7 +34,9 @@
 
     <body>
         <!-- Header -->
-        <div style="background-image: url('assets/images/head1234.jpg');background-size: 1349px 80px;background-repeat: no-repeat;">
+        <div>
+        <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"  ></div>
+
             <div class="header-text" );>
                 <div class="container-fluid"></div>
             </div>
@@ -291,3 +293,18 @@
 
     });
 </script>
+
+<!-- jQuery JS -->
+<script src="<?= base_url(); ?>assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $( ".home" ).removeClass( "active");
+        $( ".services" ).removeClass( "active");
+        $( ".other" ).removeClass( "active");
+        $( ".contact" ).removeClass( "active");
+        $( ".aboutus" ).removeClass( "active");
+        $( ".login" ).removeClass( "active");
+        $( ".register" ).removeClass( "active");
+        $( ".vehicle" ).addClass( "active");
+      });
+    </script>

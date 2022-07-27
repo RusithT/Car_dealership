@@ -24,13 +24,13 @@
   <body>
 
     <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
+    <!-- <div id="preloader">
       <div class="jumper">
         <div></div>
         <div></div>
         <div></div>
       </div>
-    </div>
+    </div> -->
     <!-- ***** Preloader End ***** -->
 
     <!-- Header -->
@@ -46,7 +46,7 @@
             <ul class="right-icons">
               <li><a href="https://www.facebook.com/BROOOOMlk-103707022400276"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://twitter.com/broo_oom"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
@@ -65,22 +65,22 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               
-              <li class="nav-item active">
+              <li class="nav-item home active">
                 <a class="nav-link" href="<?= base_url(); ?>">Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item vehicle dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Vehicle</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?= base_url(); ?>vehicle">Vehicle</a>
                   <a class="dropdown-item" href="<?= base_url(); ?>compare">Vehicle Compare</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <li class="nav-item services">
                 <a class="nav-link" href="offers.html">Services</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item other dropdown">
                 <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Other</a>
 
                 <div class="dropdown-menu">
@@ -93,16 +93,16 @@
                   <a class="dropdown-item" href="review.html">Review</a>
                 </div>
               </li>
-              <li class="nav-item">
+              <li class="nav-item contact">
                 <a class="nav-link" href="<?= base_url(); ?>contact">Contact Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item aboutus">
                 <a class="nav-link" href="<?= base_url(); ?>aboutus">About Us</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item login">
                 <a class="nav-link" href="<?= base_url(); ?>login">Login</a>
               </li>
-              <li class="nac-item">
+              <li class="nac-item register">
                 <a class="nav-link" href="<?= base_url(); ?>register">Register</a>
               </li>
             </ul>

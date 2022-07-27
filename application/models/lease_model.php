@@ -48,12 +48,12 @@ class Lease_model extends CI_Model
 
     public function load_item(){
 
-        $sql="SELECT * FROM `vehicles` WHERE vehicle_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."' ";
+        $sql="SELECT * FROM `vehicles` WHERE type_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."' ";
         $query = $this->db->query($sql)->result();
         
         $option="<option class='dropdown-item option1' value='0' style='color:white;' >SELECT Item</option>";
         foreach($query as $row){
-            $option.="<option class='dropdown-item' value='".$row->chesis_no."'>".$row->chesis_no." - ". $row->manufacturer_id."</option>"; 
+            $option.="<option class='dropdown-item' value='".$row->chesis_no."'>".$row->chesis_no."</option>"; 
         }
         return ($option);
 		
@@ -69,7 +69,7 @@ class Lease_model extends CI_Model
 	}
     public function full_ammount(){
 
-        $sql1="SELECT * FROM `vehicles` WHERE vehicle_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'AND chesis_no='".$_POST['chesis_no']."' ";
+        $sql1="SELECT * FROM `vehicles` WHERE type_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'AND chesis_no='".$_POST['chesis_no']."' ";
         $query = $this->db->query($sql1)->row()->selling_price;
        
       
@@ -78,7 +78,7 @@ class Lease_model extends CI_Model
    }
     public function lease_vehicles(){
 
-        $sql1="SELECT * FROM `vehicles` WHERE vehicle_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'AND chesis_no='".$_POST['chesis_no']."' ";
+        $sql1="SELECT * FROM `vehicles` WHERE type_id='".$_POST['type1']."' AND brand_id='".$_POST['brand1']."' AND model_id='".$_POST['model1']."'AND chesis_no='".$_POST['chesis_no']."' ";
         $row1 = $this->db->query($sql1)->row();
         
         $option="<table class='table table-bordered' style='position:relative;'>";

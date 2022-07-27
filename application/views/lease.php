@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <div class="sub-header">
+<!--  <div class="sub-header">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-xs-12">
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-
+ 
   <header class="">
     <div class="main-banner header-text" id="top">
       <nav class="navbar navbar-expand-lg">
@@ -90,10 +90,10 @@
           </div>
         </div>
       </nav>
-  </header>
+  </header> -->
   <br /><br /><br /></br>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-3">
       <div class="service-item">
         <img src="<?= base_url(); ?>assets/images/cal.jpg" alt="">
         <div class="down-content">
@@ -106,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-4">
       <div class="service-item">
         <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
         <div class="down-content">
@@ -119,8 +119,34 @@
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+      <div class="service-item">
+        <img src="<?= base_url(); ?>assets/images/handshake.jpg" alt="">
+        <div class="down-content">
+          <h4>Want to apply for a lease?</h4>
+          <!-- <div style="margin-bottom:20px;">
+              <span>from <sup>RS.</sup>4500 per weekend</span>
+            </div> -->
+          <p>You can apply for a lese from here...</p>
+          <a href="<?php echo base_url() ?>apply_lease" class="filled-button">Apply now</a>
+        </div>
+      </div>
+    </div>
   </div>
 
 
-
+<!-- jQuery JS -->
+<script src="<?= base_url(); ?>assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $( ".home" ).removeClass( "active");
+        $( ".services" ).removeClass( "active");
+        $( ".other" ).addClass( "active");
+        $( ".contact" ).removeClass( "active");
+        $( ".aboutus" ).removeClass( "active");
+        $( ".login" ).removeClass( "active");
+        $( ".register" ).removeClass( "active");
+        $( ".vehicle" ).removeClass( "active");
+      });
+    </script>
   

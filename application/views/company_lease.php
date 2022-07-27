@@ -70,8 +70,14 @@
                         <label>Company Address</label>
                         <input type="address" placeholder="Address">
                     </div>
-                    <br><br><br>                   
-    
+                    <div class="col-md-12">
+                        <label>Gender</label>
+                        <div class="col-md-4">
+                            Male<input type="radio" name="gender" value="male">
+                            Female<input type="radio" name="gender" value="female">
+                        </div>
+                    </div>
+                    </div>
                     <!-- Director 1 -->
                     <div class="col-md-12">
                         <label>Full Name(Director 1)</label>

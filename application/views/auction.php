@@ -91,180 +91,179 @@
 
     <body>
         <br /></br><br /><br />
+        <?php foreach ($bid_vehicle as $vehicle) { ?> 
         <div class="header-text">
-        <div class="row">
-            <div class="col-md-6 ">                
-                <figure>
+        
+            <div class="row">
+                <div class="col-md-6 ">
+                    <figure>
 
-                    <img src="<?= base_url(); ?>assets/images/car.jpg" alt="car" width="1000px" style="width:100%">
-                    <br><br>
+                        <img src="<?= $vehicle['image'] ?>" alt="car" width="1000px" style="width:100%">
+                        <br><br>
 
 
 
-                </figure>
-            </div>
-            <br><br>
-            <div>
-            </div>
-            
-            <div class="col-md-6 ">
-                <form action="#" method="post" class="form">
+                    </figure>
+                </div>
+                <br><br>
+                <div>
+                </div>
+                
+                <div class="col-md-6 ">
+
                     <h2><small> VEHICLE INFORMATION</small>
                     </h2>
                     <br />
 
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Stock</span>
-                                <strong class="pull-right">SN5567</strong>
-                            </div>
-                        </li>
+                       
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Type</span>
+                                    <strong class="pull-right"><?= $vehicle['type'] ?></strong>
+                                </div>
+                            </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Type</span>
-                                <strong class="pull-right">Used Vehicle</strong>
-                            </div>
-                        </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left"> Model</span>
+                                    <strong class="pull-right"><?= $vehicle['model'] ?></strong>
+                                </div>
+                            </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left"> Model</span>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Brand</span>
+                                    <strong class="pull-right"><?= $vehicle['brand'] ?></strong>
+                                </div>
+                            </li>
 
-                                <strong class="pull-right">xxxxx</strong>
-                            </div>
-                        </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Mileage</span>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">First registration</span>
+                                    <strong class="pull-right"><?= $vehicle['mileage'] ?></strong>
+                                </div>
+                            </li>
 
-                                <strong class="pull-right">05/2010</strong>
-                            </div>
-                        </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Fuel</span>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Mileage</span>
+                                    <strong class="pull-right"><?= $vehicle['fuel_type'] ?></strong>
+                                </div>
+                            </li>
 
-                                <strong class="pull-right">5000 km</strong>
-                            </div>
-                        </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Engine No</span>
+                                    <strong class="pull-right"><?= $vehicle['engine_no'] ?></strong>
+                                </div>
+                            </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Fuel</span>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Chesis No</span>
+                                    <strong class="pull-right"><?= $vehicle['chesis_no'] ?></strong>
+                                </div>
+                            </li>
 
-                                <strong class="pull-right">Diesel</strong>
-                            </div>
-                        </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Registerd Year</span>
+                                    <strong class="pull-right"><?= $vehicle['registration_year'] ?></strong>
+                                </div>
+                            </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Engine size</span>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Color</span>
 
-                                <strong class="pull-right">1800 cc</strong>
-                            </div>
-                        </li>
+                                    <strong class="pull-right"><?= $vehicle['color'] ?></strong>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="clearfix">
+                                    <span class="pull-left">Category</span>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Primary Damage</span>
-
-                                <strong class="pull-right">Engine</strong>
-                            </div>
-                        </li>
-
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Secondary Damage</span>
-
-                                <strong class="pull-right">Right Rear</strong>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Drive Line Type</span>
-
-                                <strong class="pull-right">Front Wheel Drive</strong>
-                            </div>
-                        </li>
+                                    <strong class="pull-right"><?= $vehicle['category'] ?></strong>
+                                </div>
+                            </li>
+                        
                     </ul>
+                </div>
             </div>
-        </div>
         </div>
         <div class="row">
             <div class="col-md-6 ">
             </div>
             <div class="col-md-6 ">
-                <form action="#" method="post" class="form">
-                    <div>
-                        <h2>
-                            <small> VEHICLE DESCRIPTION</small>
-                        </h2>
-                    </div>
-                    <br />
+                <div>
+                    <h2>
+                        <small> VEHICLE DESCRIPTION</small>
+                    </h2>
+                </div>
+                <br />
 
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Sedan 4 Door</span>
-                            </div>
-                        </li>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left"><?= $vehicle['doors'] ?> Door</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Leather Seats</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left"><?= $vehicle['seats'] ?> Seats</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left"> Power Assisted Steering</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left"> <?= $vehicle['tank'] ?> Tank</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Electric Heated Seats</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left"><?= $vehicle['gear'] ?> Gear</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">New HU and AU</span>
-                            </div>
-                        </li>
+                    <!-- <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left">New HU and AU</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Xenon Headlights</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left">Xenon Headlights</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Colour Coded Bumpers</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left">Colour Coded Bumpers</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Immobiliser</span>
-                            </div>
-                        </li>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left">Immobiliser</span>
+                        </div>
+                    </li>
 
-                        <li class="list-group-item">
-                            <div class="clearfix">
-                                <span class="pull-left">Central Locking - Remote</span>
-                            </div>
-                        </li>
-                    </ul>
+                    <li class="list-group-item">
+                        <div class="clearfix">
+                            <span class="pull-left">Central Locking - Remote</span>
+                        </div>
+                    </li> -->
+                </ul>
             </div>
         </div>
         </div>
-
+        
 
         <div class="row">
             <div class="col-md-6 ">
@@ -272,13 +271,28 @@
             <div class="col-md-6 ">
                 <div class="form-group">
                     <br>
-                    <button type="button text-center" class="btn btn-primary btn-lg btn-block" href="<?= base_url(); ?>bidders.php">Bid Now</button>
+                    <a href="<?php base_url(); ?>BidNow"><button type="button text-center" class="btn btn-primary btn-lg btn-block">Bid Now</button></a>
                     <br>
                 </div>
             </div>
         </div>
-
+        <?php } ?>
     </body>
 
     </html>
 <?php } ?>
+
+<!-- jQuery JS -->
+<script src="<?= base_url(); ?>assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".home").removeClass("active");
+        $(".services").removeClass("active");
+        $(".other").addClass("active");
+        $(".contact").removeClass("active");
+        $(".aboutus").removeClass("active");
+        $(".login").removeClass("active");
+        $(".register").removeClass("active");
+        $(".vehicle").removeClass("active");
+    });
+</script>

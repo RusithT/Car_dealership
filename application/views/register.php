@@ -69,13 +69,6 @@
                 <div class="container-fluid">
                     <div class="row">
 
-                        <div>
-                            <?php
-
-                            ?>
-
-                        </div>
-
                         <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
                             <form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
                                 <!--  <form action="https://formspree.io/f/mlezkyav" method="POST"> -->
@@ -151,8 +144,7 @@
 
         <!-- JS ============================================ -->
 
-        <!-- jQuery JS -->
-        <script src="<?= base_url(); ?>assets/js/vendor/jquery-1.12.4.min.js"></script>
+    
         <!-- Modernizer JS -->
         <script src="<?= base_url(); ?>assets/js/vendor/modernizr-2.8.3.min.js"></script>
         <!-- Popper JS -->
@@ -191,6 +183,7 @@
 -->
     </body>
 
+    <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -221,7 +214,7 @@
             $("#ajax_form").validate({
 
                 rules: {
-                    firsName: {
+                    firstName: {
                         required: true
                     },
                     lastName: {
@@ -254,7 +247,7 @@
                 },
                 messages: {
 
-                    firsName: {
+                    firstName: {
                         required: "Please provide a valid First Name",
                     },
                     lastName: {
@@ -313,7 +306,19 @@
             });
         }
     </script>
-
+<!-- jQuery JS -->
+    <script>
+      $(document).ready(function(){
+        $( ".home" ).removeClass( "active");
+        $( ".services" ).removeClass( "active");
+        $( ".other" ).removeClass( "active");
+        $( ".contact" ).removeClass( "active");
+        $( ".aboutus" ).removeClass( "active");
+        $( ".login" ).removeClass( "active");
+        $( ".register" ).addClass( "active");
+        $( ".vehicle" ).removeClass( "active");
+      });
+    </script>
     </body>
 
 
