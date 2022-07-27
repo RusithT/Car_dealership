@@ -73,7 +73,7 @@
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="<?= base_url(); ?>vehicle">Vehicle</a>
                     <a class="dropdown-item" href="<?= base_url(); ?>compare">Vehicle Compare</a>
-                    <a class="dropdown-item" href="<?= base_url(); ?>exchange">Vehicle Exchange</a>
+                    <a class="dropdown-item" href="<?= base_url(); ?>login">Vehicle Exchange</a>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -138,7 +138,7 @@
           <div class="text-content">
             <h6>We give you the best service ever!</h6>
             <h4>Want tokeep your vehicle healthy as you? <br> Then visit us once...</h4>
-            <a href="offers.html" class="filled-button">Services</a>
+            <a href="<?= base_url(); ?>services" class="filled-button">Services</a>
           </div>
         </div>
       </div>

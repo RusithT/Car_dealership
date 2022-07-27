@@ -64,11 +64,11 @@
                 <a href="https://www.facebook.com/BROOOOMlk-103707022400276" class="facebook btn d-flex justify-content-left align-items-center">
                   <span class="icon-facebook mr-3"></span> Continue with Facebook
                 </a>
-                <a href="#" class="google btn d-flex justify-content-left align-items-center">
+                <a href="<?= base_url(); ?>" class="google btn d-flex justify-content-left align-items-center">
                   <span class="icon-google mr-3"></span> Continue with Google
                 </a>
-                <a href="#" class="Apple btn d-flex justify-content-left align-items-center">
-                  <span class="icon-apple mr-3"></span> Continue with Apple
+                <a href="https://www.instagram.com/" class="Instagram btn d-flex justify-content-left align-items-center">
+                  <span class="icon-instagram mr-3"></span> Continue with Instagram
                 </a>
               </div><br>
               <div>
