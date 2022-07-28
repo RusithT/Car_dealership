@@ -54,9 +54,9 @@
                     </div>
                     <!--dropdown list 4-->
                     <div class="dropdown-center d-grid">
-                        <label>Select Grade</label>
+                        <label>Select Chassis Number</label>
                         <select class="form-select form-select-lg mb-3 " style="font-size: 15px;" id="grade">
-                            <option class="dropdown-item option1" value="0" style="color:white;">Grade</option>
+                            <option class="dropdown-item option1" value="0" style="color:white;">CHASSIS NUMBER</option>
                         </select>
                     </div>
             </div>
@@ -84,17 +84,17 @@
                     <input type="text" id="rate" name="rate" class="form-control" value="" readonly>
                 </div>
                 <div class="">
-                    <label>Full Amount</label>
+                    <label>Full Amount Rs.</label>
                     <input type="text" id="famount" name="famount" class="form-control" value="" readonly>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="">
-                    <label>Down Payment</label>
+                    <label>Down Payment Rs.</label>
                     <input type="number" id="dwnpay" name="dwnpay" class="form-control">
                 </div>
                 <div class="">
-                    <label>Balance</label>
+                    <label>Balance Rs.</label>
                     <input type="number" id="dbalance" name="dbalance" class="form-control" value="" readonly>
                 </div>
                 <div>
@@ -115,7 +115,7 @@
                     </select>
                 </div>
                 <div class="">
-                    <label><b>Installment</b></label>
+                    <label><b>Installment Rs.</b></label>
                     <input type="number" id="installments" name="installments" class="form-control" value="">
                     <br>
                     <div class="d-grid gap-2 col-6 mx-auto">

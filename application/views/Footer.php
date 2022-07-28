@@ -1,3 +1,5 @@
+<!-- Footer Starts Here -->
+<?php { ?>
 <footer>
     <div class="container">
       <div class="row">
@@ -68,8 +70,7 @@
       <div class="row">
         <div class="col-md-12">
           <p>
-            Copyright © 2020 Company Name
-            - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a>
+            Copyright © 2022 Tech Masters
           </p>
         </div>
       </div>
@@ -77,8 +78,8 @@
   </div>
 
   <!-- Bootstrap core JavaScript -->
-  <!-- <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
-  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url(); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Additional Scripts -->
   <script src="<?= base_url(); ?>assets/js/custom.js"></script>
@@ -100,3 +101,4 @@
 </body>
 
 </html>
+<?php } ?>

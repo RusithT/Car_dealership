@@ -466,8 +466,7 @@
       <div class="row">
         <div class="col-md-12">
           <p>
-            Copyright © 2020 Company Name
-            - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a>
+            Copyright © 2022 Tech Masters
           </p>
         </div>
       </div>

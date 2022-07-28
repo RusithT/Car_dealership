@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <div class="row" style="background-image: url('assets/images/head1234.jpg');background-size: 1362px 80px;background-repeat: no-repeat;">
+        <div class="row" style="background-image: url('assets/images/head1234.jpg');background-size: 1520px 80px;background-repeat: no-repeat;">
             <div class="col-md-3">&nbsp;</div>
             <div class="col-md-6">
                 <h1 class="text-center" style="margin-top:85px;">About us</h1>
