@@ -35,7 +35,7 @@
     <body>
         <!-- Header -->
         <div>
-        <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"  ></div>
+        <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"></div>
 
             <div class="header-text" );>
                 <div class="container-fluid"></div>
