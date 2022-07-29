@@ -90,6 +90,7 @@
     </head>
 
     <body>
+    <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"></div>
         <br /></br><br /><br />
         <?php foreach ($bid_vehicle as $vehicle) { ?> 
         <div class="header-text">

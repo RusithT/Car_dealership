@@ -15,11 +15,31 @@ class Exchange extends CI_Controller
 		$this->load->view('exchange');
 		$this->load->view('footer');
 	}
+
+
+	public function select_type(){
+		$res['data']=$this->Exchange_model->select_type();
+		echo json_encode($res);
+	}
+	public function load_brands(){
+		$res['data']=$this->Exchange_model->load_brands();
+		echo json_encode($res);
+	}
+
+	public function load_models(){
+		$res['data']=$this->Exchange_model->load_models();
+		echo json_encode($res);
+	}
+
+
 	public function create()
 	{
 
+		
 		if ($this->input->post('submit') !== null) {
+			
 			$vl = $this->Exchange_model->create();
+			
 
 			if ($vl == 'ok') {
 				$data = array('success' => true, 'msg' => '<script>swal({
@@ -30,18 +50,26 @@ class Exchange extends CI_Controller
 				dangerMode: false,
 			  }).then((willDelete) => {
 				if (willDelete) {
-				  window.location = "' . base_url() . '";
+				  window.location = "' . base_url(). 'exchange";
 				} 
 			  }); </script>');
 			} else if ($vl == 'already_exist') {
 				$data = array('success' => false, 'typ' => true, 'msg' => "<script>swal({
-				title: 'Oops! User already exists',
+				title: 'Oops!  already exists',
 				
 				icon: 'error',
 				
 				dangerMode: true,
 			});</script>");
-			} else {
+			}  else if($vl=='img_insert_fail'){
+				$data = array('success' => false, 'typ'=>true, 'msg'=> "<script>swal({
+					title: 'Oops! Image Insert Fail',
+					
+					icon: 'error',
+					
+					dangerMode: true,
+				});</script>");
+			}else {
 				$data = array('success' => false, 'typ' => true, 'msg' => "<script>swal({
 				title: 'Oops! Your Account Not Created',
 				

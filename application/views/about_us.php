@@ -14,7 +14,7 @@
         <div class="row" style="background-image: url('assets/images/head1234.jpg');background-size: 1520px 80px;background-repeat: no-repeat;">
             <div class="col-md-3">&nbsp;</div>
             <div class="col-md-6">
-                <h1 class="text-center" style="margin-top:85px;">About us</h1>
+                <h1 class="text-center text-primary" style="margin-top:85px;"><br>About us</h1>
                 <p>Our website BROOOM.LKprovides you with the vehicles you need.
                     In addition, we provide the necessary faithful leasing providers to get a leassing to your vehicle that you buy from us.
                     And you can get all the auto parts you need for your vehicle at your home through our website.

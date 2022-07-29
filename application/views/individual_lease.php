@@ -41,7 +41,8 @@
 
 </head>
 <body>
-    <br/></br><br/><br/>
+<div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"></div>
+    <br/></br>
     <div class="col-sm-16 col-md-16 col-lg-12 col-xs-24">
         <form action="#">
             <div class="login-form">

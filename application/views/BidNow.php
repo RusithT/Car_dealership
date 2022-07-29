@@ -97,6 +97,7 @@
     </head>
 
     <body>
+    <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"></div>
         <br><br><br><br>
         <?php foreach ($bid_vehicle as $vehicle) { ?>
             <form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
@@ -126,7 +127,7 @@
                                         <th scope="col">Starting Bid</th>
                                         <th scope="col"></th>
                                         <th scope="col"></th>
-                                        <th scope="col"><input type="text" name="start_bid" size="50" value="500 LKR" title="500 LKR" readonly style="border: none;font-weight:bold"></th>
+                                        <th scope="col"><input type="text" name="start_bid" size="50" value="2600000 LKR" title="2600000 LKR" readonly style="border: none;font-weight:bold"></th>
                                     </tr>
                                     <tr>
                                         <th scope="col">Ending Time</th>
@@ -164,7 +165,7 @@
                                         <th scope="col">Maximun Bid</th>
                                         <th scope="col"></th>
                                         <th scope="col"></th>
-                                        <th scope="col"><input type="number" placeholder="Value more than 500 LKR" size="50" name="bid_amount"></th>
+                                        <th scope="col"><input type="number" placeholder="Value more than 10000 LKR" size="100" name="bid_amount"></th>
                                     </tr>
                                     <tr>
                                         <th scope="col"><input type="hidden" name="vehicle_id" id="vehicle_id" value="<?= $vehicle['vehicle_id'] ?>"></th>
@@ -250,7 +251,7 @@
         return value > param;
     });
 
-    $.validator.messages.minStrict = 'Value must be greater than 500';
+    $.validator.messages.minStrict = 'Value must be greater than 10000';
 
     if ($("#ajax_form").length > 0) {
         $("#ajax_form").validate({
@@ -258,7 +259,7 @@
             rules: {
                 bid_amount: {
                     required: true,
-                    minStrict: 500
+                    minStrict: 10000
                 }
             },
             messages: {

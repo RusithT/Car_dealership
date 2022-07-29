@@ -40,14 +40,13 @@
   </head>
 
   <body class="template-color-1">
-    <br /><br /><br /><br />
     <div class="header-text">
     <div class="main-wrapper">
       <!-- Begin Uren's Breadcrumb Area -->
       <div class="breadcrumb-area">
         <div class="container">
           <div class="breadcrumb-content">
-            <h2>Apply for a lease now!</h2>
+            <h2><br>Apply for a lease now!</h2>
             <ul>
               <li><a href="<?= base_url() ?>">Home</a></li>
               <li class="active">Lease Application</li>

@@ -12,6 +12,7 @@
 
 
     <body>
+    <div style="height:100px;background-image: url('assets/images/head1234.jpg');background-repeat:repeat;"></div>
         <!-- Calculator -->
         <div class="row">
             <div class="row">

@@ -113,6 +113,18 @@
                 </div>
                 <div class="col-md-2">&nbsp;</div>
             </div>
+            <div class="row promo1" style="margin-top:120px;">
+                <div class="col-md-4">
+                    <p style="margin-left:60px;margin-top:30px;color:ghostwhite;font-size:40px;">AUTOMOBILE</p>
+                    <p style="margin-left:120px;margin-top:20px;color:yellow;font-size:40px;">SPARE PARTS</p>
+                </div>
+                <div class="col-md-4">
+                    <p style="color:ghostwhite;margin-top:50px;font-size:20px;">Find the Right Parts Faster</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="<?php base_url(); ?>parts"><button type="button" class="btn btn-warning btn-lg" style="margin-top:56px;margin-left:170px;">Get Spare Parts</button></a>
+                </div>
+            </div>
             <div class="row" style="margin-top:100px;">
                 <h1 class="text-center" style="color:#2d2d2d;"><b>100% Result Guarantee</b></h1>
                 <h5 class="text-center" style="color:#2d2d2d;">We offer full service auto repair & maintenance</h5>
@@ -136,7 +148,8 @@
                 <div class="col-md-4 top-left">
                     <h1 style="color:gold"><b>Repair Services That We Offer</b></h1>
                     <p style="font-size:20px;color: antiquewhite;">We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes everything from struts, shocks, and tie rod ends to ball joints, springs, and basically everything that is included in repairing the front end of the vehicle.</p>
-                    <a href="<?php base_url(); ?>"><button type="button" class="btn btn-outline-warning btn-lg" style="margin-top:10px;margin-left:150px;">Book an Appointment</button></a>
+                    <button type="button" class="btn btn-outline-warning btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">Book an Appointment</button>
+
                 </div>
                 <div class="col-md-4 centered">
                     <ul class="a">
@@ -187,7 +200,190 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     </body>
 
     </html>
+
+
+
 <?php } ?>
+
+<style type="text/css">
+            .error {
+                color: #d92550;
+                padding-top: 10px;
+            }
+        </style>
+
+<form class="needs-validation" enctype="multipart/form-data" id="ajax_form" method="POST" action="javascript:void(0)">
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-lg">
+        <div class="modal-content" style="font-family: 'Roboto', sans-serif;">
+            <div class="modal-header">
+                <h3 class="modal-title font-weight-bold" id="exampleModalLabel">Schedule <font color='#ffc513'>Auto Service</font>
+                </h3>
+            </div>
+            <div class="modal-body" style="padding:40px!important;">
+                <div>
+                    <h6>To schedule an appointment fill out the form below with your information and requested services.</h6>
+                </div>
+                <div class="row" style="padding-top:10px;padding-bottom:10px;">
+                    <div class="col-md-4 font-weight-bold">Contact Info</div>
+                    <div class="col-md-4 font-weight-bold">Vehicle Detail</div>
+                    <div class="col-md-4 font-weight-bold">Appointment Details</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><input type="text" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="fname" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Your name"></div>
+                    <div class="col-md-4"><input type="text" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="vehitype" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Vehicle Type"></div>
+                    <div class="col-md-4"><input type="date" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="appdate" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Date"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4"><input type="text" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="yourphone" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Phone number"></div>
+                    <div class="col-md-4"><input type="text" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="vehimodel" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Vehicle Model"></div>
+                    <div class="col-md-4"><select  style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" value=""  name="service_type" class="form-control required" aria-required="true" aria-invalid="false" required >
+                            <option value="">Service</option>
+                            <option value="N">Normal Service</option>
+                            <option value="Q">Quick Service</option>
+                        </select></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4"><input type="email" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="youremail" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="address@youremail.com"></div>
+                    <div class="col-md-4"><input type="text" style="border-radius:0!important;border:none;background-color:rgba(237, 237, 237,0.8)" name="vehiyear" value="" size="40" class="form-control" aria-required="true" aria-invalid="false" required placeholder="Year"></div>
+                    <div class="col-md-4"><button type="submit" name="submit" id="submit" style="border-radius:0!important;width:100%" class="btn btn-border btn-secondary"><span>Submit</span></button></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</form>
+
+<div class="form-row">
+                        <div id="msg_div">
+                            <span id="res_message">
+                            </span>
+                        </div>
+                    </div>
+
+<script src="<?= base_url(); ?>vendor/jquery/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+    <script type="text/javascript">
+        // just for the demos, avoids form submit
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var forms = document.getElementsByClassName('needs-validation');
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            //alert('fail');
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+
+
+        if ($("#ajax_form").length > 0) {
+            $("#ajax_form").validate({
+
+                rules: {
+                    fname: {
+                        required: true
+                    },
+                    yourphone: {
+                        required: true
+                    },
+                    youremail: {
+                        required: true
+                    },
+                    vehitype: {
+                        required: true
+                    },
+                    vehimodel: {
+                        required: true
+                    },
+                    vehiyear: {
+                        required: true
+                    },
+                    appdate: {
+                        required: true
+                    },
+                    service_type: {
+                        required: true
+                    }
+                },
+                messages: {
+
+                    fname: {
+                        required: "Please provide a valid Name",
+                    },
+                    yourphone: {
+                        required: "Please provide a valid Phone number ",
+                    },
+                    youremail: {
+                        required: "Please provide a valid email",
+                    },
+                    vehitype: {
+                        required: "Please provide a valid vehicle Type ",
+                    },
+                    vehimodel: {
+                        required: "Please provide a valid vehicle model",
+                    },
+                    vehiyear: {
+                        required: "Please select a vehicle year ",
+                    },
+                    appdate: {
+                        required: "Please provide a valid appoinment date",
+                    },
+                    service_type: {
+                        required: "Please provide a valid service type",
+                    }
+
+                },
+                
+                submitHandler: function(form) {
+                    $('#send_form').html('Sending..');
+                    $.ajax({
+                        url: "<?php echo base_url('Services/create') ?>",
+                        type: "POST",
+                        data: $('#ajax_form').serialize(),
+                        dataType: "json",
+                        success: function(response) {
+                            if (response.success) {
+
+                                $('#send_form').html('SAVE');
+                                $('#res_message').html(response.msg);
+                                $('#res_message').show();
+                                var forms = document.getElementsByClassName('needs-validation');
+                                form.classList.remove('was-validated');
+
+                            } else {
+                                $('#send_form').html('SAVE');
+                                $('#res_message').html(response.msg);
+                                $('#res_message').show();
+                            }
+                        },
+                        error: function(response) {
+                            alert(JSON.stringify(response));
+                        }
+                    });
+                }
+            });
+        }
+    </script>

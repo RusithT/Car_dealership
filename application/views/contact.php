@@ -34,7 +34,7 @@
             <i class="fa fa-envelope"></i>
             <h4>Email</h4>
             <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-            <a href="#">broooom.lk@gmail.com</a>
+            <a href="mailto:broooom.lk@gmail.com?Subject=Some%20subject">broooom.lk@gmail.com</a>
           </div>
         </div>
         <div class="col-md-4">
