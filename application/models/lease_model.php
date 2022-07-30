@@ -132,4 +132,54 @@ class Lease_model extends CI_Model
         return ($option);
 		
 	}
+    public function create(){
+
+
+		$data = array(
+			'fullname'=> $this->input->post('fullname'),
+            'nameini'=> $this->input->post('nameinitials'),
+            'nic'=> $this->input->post('nic'),
+            'nicimg1'=> $this->input->post('nicimg1'),
+            'nicimg2'=> $this->input->post('nicimg2'),
+            'bdate'=> $this->input->post('bdate'),
+            'email'=> $this->input->post('email'),
+            'address'=> $this->input->post('address'),
+            'gender'=>$this->input->post('gender'),
+
+            'guaranter1'=> $this->input->post('guaranter1'),
+            'guarantname'=> $this->input->post('guarantname'),
+            'gnic'=> $this->input->post('gnic'),
+            'gnicf'=> $this->input->post('gnicf'),
+            'gnicb'=> $this->input->post('gnicb'),
+            'gbdate'=> $this->input->post('gbdate'),
+            'gemail'=> $this->input->post('gemail'),
+            'gaddress'=> $this->input->post('gaddress'),
+            'genderg'=>$this->input->post('genderg'),
+
+            'gfname2'=> $this->input->post('gfname2'),
+            'gnamein'=> $this->input->post('gnamein'),
+            'gnic2'=> $this->input->post('gnic2'),
+            'gnicf2'=> $this->input->post('gnicf2'),
+            'gnicb2'=> $this->input->post('gnicb2'),
+            'gbdate2'=> $this->input->post('gbdate2'),
+            'gemail2'=> $this->input->post('gemail2'),
+            'gaddress2'=> $this->input->post('gaddress2'),
+            'genderg2'=>$this->input->post('genderg2'),
+			);
+
+		$this->db->where('email =', $this->input->post('email'));
+		$query = $this->db->get('individual_lease');
+		if($query->num_rows()>0){
+			$d="already_exist";
+			return $d;
+		}else{
+			$insert =$this->db->insert('individual_lease', $data);
+			if($insert){
+				return "ok";
+			}else{
+				$d="insert_fail";
+				return $d;
+			}
+		}
+	}
 }
